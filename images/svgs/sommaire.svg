@@ -1,36 +1,36 @@
-<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="280" xmlns="http://www.w3.org/2000/svg">
  <g>
   <title>Layer 1</title>
   <line fill="none" stroke="#000" x1="-209" y1="504" x2="-209" y2="503" id="svg_16"/>
-  <ellipse stroke-width="0" stroke="#000" ry="57.5" rx="58.5" id="svg_1" cy="179.5" cx="80" fill="#6bbace"/>
-  <ellipse stroke-width="0" stroke="#000" ry="58" rx="58.5" id="svg_6" cy="180" cx="242" fill="#6bbace"/>
-  <ellipse stroke-width="0" stroke="#000" ry="57.5" rx="58.5" id="svg_7" cy="180" cx="406" fill="#6bbace"/>
-  <ellipse stroke-width="0" stroke="#000" ry="57.5" rx="58.5" id="svg_8" cy="180" cx="567" fill="#6bbace"/>
-  <ellipse stroke-width="0" stroke="#000" ry="57.5" rx="58.5" id="svg_9" cy="180" cx="726" fill="#6bbace"/>
-  <path stroke-width="0" id="svg_15" d="m33,286l90,0l0,30l-90,0l0,-30z" opacity="undefined" stroke="#000" fill="#ff5656"/>
-  <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" id="svg_17" y="305" x="59" stroke-width="0" stroke="#000" fill="#ffffff">HEAD</text>
-  <path stroke-width="0" transform="rotate(-90 80.635 260.884)" id="svg_21" d="m78.81673,267.06613l6.34186,-3.81836l-12.26166,0l-12.26196,0l0,-2.36346l0,-2.36374l12.12128,0c6.66656,0 12.12097,-0.1199 12.12097,-0.26608c0,-0.14651 -2.65381,-1.86493 -5.89783,-3.81837l-5.89752,-3.55194l5.45135,0l5.45105,0l8.3255,5.00488l8.3252,5.00462l-8.34137,4.99551l-8.34137,4.99496l-5.73853,0l-5.73914,0l6.34216,-3.81802l0,0z" stroke="#000" fill="#000000"/>
-  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" id="svg_22" y="186" x="33" stroke-width="0" stroke="#000" fill="#ffffff">Rappels sur Git</text>
-  <text stroke="#000" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" id="svg_23" y="186" x="204" stroke-width="0" fill="#ffffff">Git internals</text>
-  <text stroke="#000" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" id="svg_24" y="186" x="356" stroke-width="0" fill="#ffffff">Refaire l'histoire</text>
-  <text stroke="#000" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" id="svg_25" y="186" x="518" stroke-width="0" fill="#ffffff">J'ai tout cassé :(</text>
-  <text stroke="#000" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" id="svg_26" y="186" x="671" stroke-width="0" fill="#ffffff">Debugger avec Git</text>
-  <line id="svg_27" y2="182" x2="178" y1="182" x1="144" stroke="#000" fill="none"/>
-  <line id="svg_28" y2="182" x2="341" y1="182" x1="307" stroke="#000" fill="none"/>
-  <line id="svg_29" y2="182" x2="503" y1="182" x1="469" stroke="#000" fill="none"/>
-  <line id="svg_30" y2="182" x2="663" y1="182" x1="629" stroke="#000" fill="none"/>
-  <path stroke-width="0" id="svg_31" d="m194,286l90,0l0,30l-90,0l0,-30z" opacity="undefined" stroke="#000" fill="#ff5656"/>
-  <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" id="svg_32" y="305" x="220" stroke-width="0" stroke="#000" fill="#ffffff">HEAD</text>
-  <path stroke-width="0" transform="rotate(-90 241.635 260.884)" id="svg_33" d="m239.81673,267.06613l6.34184,-3.81836l-12.26164,0l-12.26196,0l0,-2.36346l0,-2.36374l12.12128,0c6.66658,0 12.12097,-0.1199 12.12097,-0.26608c0,-0.14651 -2.65381,-1.86493 -5.89781,-3.81837l-5.89754,-3.55194l5.45135,0l5.45105,0l8.3255,5.00488l8.32518,5.00462l-8.34137,4.99551l-8.34137,4.99496l-5.73851,0l-5.73914,0l6.34216,-3.81802l0,0z" stroke="#000" fill="#000000"/>
-  <path stroke-width="0" id="svg_34" d="m361,286l90,0l0,30l-90,0l0,-30z" opacity="undefined" stroke="#000" fill="#ff5656"/>
-  <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" id="svg_35" y="305" x="387" stroke-width="0" stroke="#000" fill="#ffffff">HEAD</text>
-  <path stroke-width="0" transform="rotate(-90 408.635 260.884)" id="svg_36" d="m406.81671,267.06613l6.34186,-3.81836l-12.26166,0l-12.26196,0l0,-2.36346l0,-2.36374l12.12128,0c6.6666,0 12.12097,-0.1199 12.12097,-0.26608c0,-0.14651 -2.65381,-1.86493 -5.8978,-3.81837l-5.89752,-3.55194l5.45132,0l5.45105,0l8.3255,5.00488l8.3252,5.00462l-8.34137,4.99551l-8.34137,4.99496l-5.73849,0l-5.73914,0l6.34213,-3.81802l0,0z" stroke="#000" fill="#000000"/>
-  <path stroke-width="0" id="svg_37" d="m522,286l90,0l0,30l-90,0l0,-30z" opacity="undefined" stroke="#000" fill="#ff5656"/>
-  <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" id="svg_38" y="305" x="548" stroke-width="0" stroke="#000" fill="#ffffff">HEAD</text>
-  <path stroke-width="0" transform="rotate(-90 569.635 260.884)" id="svg_39" d="m567.81671,267.06613l6.34186,-3.81836l-12.26166,0l-12.26196,0l0,-2.36346l0,-2.36374l12.12128,0c6.66663,0 12.12097,-0.1199 12.12097,-0.26608c0,-0.14651 -2.65381,-1.86493 -5.89777,-3.81837l-5.89752,-3.55194l5.45129,0l5.45105,0l8.3255,5.00488l8.3252,5.00462l-8.34137,4.99551l-8.34137,4.99496l-5.73846,0l-5.73914,0l6.3421,-3.81802l0,0z" stroke="#000" fill="#000000"/>
-  <path stroke-width="0" id="svg_40" d="m681,286l90,0l0,30l-90,0l0,-30z" opacity="undefined" stroke="#000" fill="#ff5656"/>
-  <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" id="svg_41" y="305" x="707" stroke-width="0" stroke="#000" fill="#ffffff">HEAD</text>
-  <path stroke-width="0" transform="rotate(-90 728.635 260.884)" id="svg_42" d="m726.81671,267.06613l6.34186,-3.81836l-12.26166,0l-12.26196,0l0,-2.36346l0,-2.36374l12.12128,0c6.66663,0 12.12097,-0.1199 12.12097,-0.26608c0,-0.14651 -2.65381,-1.86493 -5.89777,-3.81837l-5.89752,-3.55194l5.45129,0l5.45105,0l8.3255,5.00488l8.3252,5.00462l-8.34137,4.99551l-8.34137,4.99496l-5.73846,0l-5.73914,0l6.3421,-3.81802l0,0z" stroke="#000" fill="#000000"/>
+  <ellipse stroke-width="0" stroke="#000" ry="57.5" rx="58.5" id="svg_1" cy="97.5" cx="80" fill="#6bbace"/>
+  <ellipse stroke-width="0" stroke="#000" ry="58" rx="58.5" id="svg_6" cy="98" cx="242" fill="#6bbace"/>
+  <ellipse stroke-width="0" stroke="#000" ry="57.5" rx="58.5" id="svg_7" cy="98" cx="406" fill="#6bbace"/>
+  <ellipse stroke-width="0" stroke="#000" ry="57.5" rx="58.5" id="svg_8" cy="98" cx="567" fill="#6bbace"/>
+  <ellipse stroke-width="0" stroke="#000" ry="57.5" rx="58.5" id="svg_9" cy="98" cx="726" fill="#6bbace"/>
+  <path stroke-width="0" id="svg_15" d="m34,204l90,0l0,30l-90,0l0,-30z" opacity="undefined" stroke="#000" fill="#ff5656"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" id="svg_17" y="223" x="60" stroke-width="0" stroke="#000" fill="#ffffff">HEAD</text>
+  <path stroke-width="0" transform="rotate(-90 80.635 178.884)" id="svg_21" d="m78.81673,185.06613l6.34187,-3.81836l-12.26167,0l-12.26196,0l0,-2.36346l0,-2.36374l12.12128,0c6.66656,0 12.12097,-0.1199 12.12097,-0.26608c0,-0.1465 -2.65381,-1.86493 -5.89783,-3.81836l-5.89752,-3.55194l5.45135,0l5.45105,0l8.3255,5.00487l8.3252,5.00462l-8.34137,4.99551l-8.34137,4.99496l-5.73853,0l-5.73914,0l6.34216,-3.81802l0,0l0.00001,0z" stroke="#000" fill="#000000"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" id="svg_22" y="104" x="33" stroke-width="0" stroke="#000" fill="#ffffff">Rappels sur Git</text>
+  <text stroke="#000" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" id="svg_23" y="104" x="204" stroke-width="0" fill="#ffffff">Git internals</text>
+  <text stroke="#000" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" id="svg_24" y="104" x="356" stroke-width="0" fill="#ffffff">Refaire l'histoire</text>
+  <text stroke="#000" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" id="svg_25" y="104" x="518" stroke-width="0" fill="#ffffff">J'ai tout cassé :(</text>
+  <text stroke="#000" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" id="svg_26" y="104" x="671" stroke-width="0" fill="#ffffff">Debugger avec Git</text>
+  <line id="svg_27" y2="100" x2="178" y1="100" x1="144" stroke="#000" fill="none"/>
+  <line id="svg_28" y2="100" x2="341" y1="100" x1="307" stroke="#000" fill="none"/>
+  <line id="svg_29" y2="100" x2="503" y1="100" x1="469" stroke="#000" fill="none"/>
+  <line id="svg_30" y2="100" x2="663" y1="100" x1="629" stroke="#000" fill="none"/>
+  <path stroke-width="0" id="svg_31" d="m195,204l90,0l0,30l-90,0l0,-30z" opacity="undefined" stroke="#000" fill="#ff5656"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" id="svg_32" y="223" x="221" stroke-width="0" stroke="#000" fill="#ffffff">HEAD</text>
+  <path stroke-width="0" transform="rotate(-90 241.635 178.884)" id="svg_33" d="m239.81673,185.06613l6.34184,-3.81836l-12.26164,0l-12.26196,0l0,-2.36346l0,-2.36374l12.12129,0c6.66658,0 12.12096,-0.1199 12.12096,-0.26608c0,-0.1465 -2.65381,-1.86493 -5.8978,-3.81836l-5.89755,-3.55194l5.45135,0l5.45105,0l8.3255,5.00487l8.32518,5.00462l-8.34137,4.99551l-8.34137,4.99496l-5.73851,0l-5.73914,0l6.34216,-3.81802l0,0z" stroke="#000" fill="#000000"/>
+  <path stroke-width="0" id="svg_34" d="m362,204l90,0l0,30l-90,0l0,-30z" opacity="undefined" stroke="#000" fill="#ff5656"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" id="svg_35" y="223" x="388" stroke-width="0" stroke="#000" fill="#ffffff">HEAD</text>
+  <path stroke-width="0" transform="rotate(-90 408.635 178.884)" id="svg_36" d="m406.81671,185.06613l6.34186,-3.81836l-12.26166,0l-12.26196,0l0,-2.36346l0,-2.36374l12.12128,0c6.6666,0 12.12097,-0.1199 12.12097,-0.26608c0,-0.1465 -2.65381,-1.86493 -5.8978,-3.81836l-5.89752,-3.55194l5.45132,0l5.45105,0l8.3255,5.00487l8.3252,5.00462l-8.34137,4.99551l-8.34137,4.99496l-5.73849,0l-5.73914,0l6.34213,-3.81802l0,0z" stroke="#000" fill="#000000"/>
+  <path stroke-width="0" id="svg_37" d="m524,204l90,0l0,30l-90,0l0,-30z" opacity="undefined" stroke="#000" fill="#ff5656"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" id="svg_38" y="223" x="550" stroke-width="0" stroke="#000" fill="#ffffff">HEAD</text>
+  <path stroke-width="0" transform="rotate(-90 569.635 178.884)" id="svg_39" d="m567.81671,185.06613l6.34186,-3.81836l-12.26166,0l-12.26196,0l0,-2.36346l0,-2.36374l12.12128,0c6.66663,0 12.12097,-0.1199 12.12097,-0.26608c0,-0.1465 -2.65381,-1.86493 -5.89777,-3.81836l-5.89752,-3.55194l5.45129,0l5.45105,0l8.3255,5.00487l8.3252,5.00462l-8.34137,4.99551l-8.34137,4.99496l-5.73846,0l-5.73914,0l6.3421,-3.81802l0,0z" stroke="#000" fill="#000000"/>
+  <path stroke-width="0" id="svg_40" d="m683,204l90,0l0,30l-90,0l0,-30z" opacity="undefined" stroke="#000" fill="#ff5656"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" id="svg_41" y="223" x="709" stroke-width="0" stroke="#000" fill="#ffffff">HEAD</text>
+  <path stroke-width="0" transform="rotate(-90 728.635 178.884)" id="svg_42" d="m726.81671,185.06613l6.34186,-3.81836l-12.26166,0l-12.26196,0l0,-2.36346l0,-2.36374l12.12128,0c6.66663,0 12.12097,-0.1199 12.12097,-0.26608c0,-0.1465 -2.65381,-1.86493 -5.89777,-3.81836l-5.89752,-3.55194l5.45129,0l5.45105,0l8.3255,5.00487l8.3252,5.00462l-8.34137,4.99551l-8.34137,4.99496l-5.73846,0l-5.73914,0l6.3421,-3.81802l0,0z" stroke="#000" fill="#000000"/>
  </g>
 
 </svg>

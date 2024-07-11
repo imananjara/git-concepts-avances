@@ -1,0 +1,21 @@
+.summary-item-hidden {
+    opacity: 0;
+    transform: scale(0.5);
+    transition: transform 0.5s ease-in-out;
+}
+.summary-item-visible {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.summary-cursor {
+    transform: translateX(0);
+    transition: translate 0.5s ease-in-out;
+}
+
+.fragment {
+    transition: all 0.5s ease-in-out;
+}
+.hidden {
+    display: none;
+}
