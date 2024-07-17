@@ -553,6 +553,55 @@
 							</g>
 						</svg>
 					</section>
+					<section data-auto-animate data-auto-animate-id="git-merge">
+						<p>Fusionner deux branches</p>
+						<pre><code class="bash" data-line-numbers data-trim data-noescape>
+							mbp-de-user:~ user$ git merge
+
+							Updating d1c73e9..24e1a63
+							Fast-forward
+							test.txt | 1 +
+							1 file changed, 1 insertion(+)
+							create mode 100644 test.txt
+						</code></pre>
+					</section>
+					<section data-auto-animate data-auto-animate-id="git-merge">
+						<p>Fusionner deux branches</p>
+						<pre><code class="bash" data-line-numbers data-trim data-noescape>
+							mbp-de-user:~ user$ git merge
+
+							Updating d1c73e9..24e1a63
+							Fast-forward
+							test.txt | 1 +
+							1 file changed, 1 insertion(+)
+							create mode 100644 test.txt
+						</code></pre>
+						<img src="images/git-merge.png" alt="schema git merge" style="height: 250px; margin: 0 auto 4rem auto; background: transparent;">
+					</section>
+					<section>
+						<p>Se positionner sur une branche ou un commit</p>
+						<pre><code class="bash" data-line-numbers data-trim data-noescape>
+							mbp-de-user:~ user$ git checkout test
+
+							Switched to branch 'test'
+						</code></pre>
+					</section>
+					<section>
+						<p>Afficher l'historique de la branche courante</p>
+						<pre><code class="bash" data-line-numbers data-trim data-noescape>
+							mbp-de-user:~ user$ git log
+
+							commit 817b6fab (HEAD -> master)
+							Author: Utilisateur test <howard.wolowitz@caltech.edu>
+							Date:   Monday Oct 29 10:09:36 2024 +0100
+
+								J'ai ajouté un commit c'est super !
+						</code></pre>
+					</section>
+					<section>
+						<p>Tagger un commit</p>
+						<pre><code class="bash" data-trim data-line-numbers>mbp-de-user:~ user$ git tag (-a)</code></pre>
+					</section>
 				</section>
 				<section>
 					<section data-auto-animate data-auto-animate-id="git-internals">
