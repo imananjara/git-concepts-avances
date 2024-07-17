@@ -592,7 +592,7 @@
 							mbp-de-user:~ user$ git log
 
 							commit 817b6fab (HEAD -> master)
-							Author: Utilisateur test <howard.wolowitz@caltech.edu>
+							Author: Utilisateur test <user.test@gmail.com>
 							Date:   Monday Oct 29 10:09:36 2024 +0100
 
 								J'ai ajouté un commit c'est super !
@@ -612,7 +612,23 @@
 					</section>
 					<section data-auto-animate data-auto-animate-id="inside-git-folder">
 						<p>Regardons ce qu'il y a dans le <strong>.git</strong>...</p>
-						<img src="images/dossier-git.png" alt="dossier git" style="height: 300px; margin: 0 auto 4rem auto; background: transparent;" class="dossier-git">
+						<pre><code class="bash" data-trim data-line-numbers>
+							mbp-de-test:.git usertest$ ls -la
+							total 48
+							drwxr-xr-x  13 usertest  staff  416 17 jul 17:07 .
+							drwxr-xr-x   5 usertest  staff  160 17 jul 17:07 ..
+							-rw-r--r--   1 usertest  staff    5 17 jul 17:04 COMMIT_EDITMSG
+							-rw-r--r--   1 usertest  staff   23 17 jul 17:06 HEAD
+							-rw-r--r--   1 usertest  staff   41 17 jul 17:07 ORIG_HEAD
+							-rw-r--r--   1 usertest  staff  137 17 jul 17:00 config
+							-rw-r--r--   1 usertest  staff   73 17 jul 17:00 description
+							drwxr-xr-x  13 usertest  staff  416 17 jul 17:00 hooks
+							-rw-r--r--   1 usertest  staff  209 17 jul 17:07 index
+							drwxr-xr-x   3 usertest  staff   96 17 jul 17:00 info
+							drwxr-xr-x   4 usertest  staff  128 17 jul 17:01 logs
+							drwxr-xr-x  10 usertest  staff  320 17 jul 17:04 objects
+							drwxr-xr-x   4 usertest  staff  128 17 jul 17:00 refs
+						</code></pre>
 					</section>
 					<section>
 						<p>Arborescence du projet</p>
@@ -641,27 +657,260 @@
 							</g>
 						</svg>
 					</section>
-					<section>
+					<section data-auto-animate data-auto-animate-id="git-objects-concepts">
 						<h3>Les objets Git</h3>
 					</section>
+					<section data-auto-animate data-auto-animate-id="git-objects-concepts">
+						<h3>Les objets Git</h3>
+						<p>Git est système de fichier adressable par <strong>contenu</strong></p>
+					</section>
+					<section data-auto-animate data-auto-animate-id="git-objects-concepts">
+						<h3>Les objets Git</h3>
+						<p>Git est système de fichier adressable par <strong>contenu</strong></p>
+						<p>Un objet git est <strong>immuable</strong></p>
+					</section>
+					<section data-auto-animate data-auto-animate-id="git-objects-concepts">
+						<h3>Les objets Git</h3>
+						<p>Git est système de fichier adressable par <strong>contenu</strong></p>
+						<p>Un objet git est <strong>immuable</strong></p>
+						<p>Les objets Git sont enregistrés dans <strong>.git/objects</strong></p>
+					</section>
 					<section>
+						<svg width="800" height="500">
+							<g id="Layer_1">
+								<g stroke="null">
+									<path stroke="#000000" d="m267,240.55554l0,118.88892c0,26.1557 21.74988,47.55554 48.33334,47.55554l193.33331,0c26.58353,0 48.33334,-21.39984 48.33334,-47.55554l0,-118.88892c0,-26.15552 -21.74982,-47.55554 -48.33334,-47.55554l-193.33331,0c-26.58347,0 -48.33334,21.40002 -48.33334,47.55554z" stroke-miterlimit="10" stroke-width="2" fill="none"/>
+								</g>
+								<line stroke="#000000" id="svg_5" y2="254" x2="553" y1="253" x1="271.00001" stroke-width="2" fill="none"/>
+								<line stroke="#000000" id="svg_6" y2="250" x2="412" y1="198" x1="412" stroke-width="2" fill="none"/>
+								<text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="16" id="svg_7" y="228" x="327" stroke-width="0" stroke="#000000" fill="#000000">Type</text>
+								<text font-weight="normal" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="16" id="svg_8" y="228" x="460" stroke-width="0" stroke="#000000" fill="#000000">Taille</text>
+								<text x="292" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="16" id="svg_9" y="289" stroke-width="0" stroke="#000000" fill="#000000">Contenu</text>
+								<path class="fragment" data-fragment-index="0" transform="rotate(90 411.925 156.549)" id="svg_16" d="m408.97131,167.67635l10.30502,-6.87273l-19.92569,0l-19.92569,0l0,-4.25446l0,-4.25446l19.69757,0c10.83267,0 19.69559,-0.21559 19.69559,-0.47926c0,-0.26341 -4.31244,-3.35634 -9.58298,-6.87279l-9.58298,-6.39349l8.85895,0l8.85696,0l13.52844,9.00851l13.52844,9.00874l-13.55423,8.9912l-13.55423,8.99155l-9.3251,0l-9.32709,0l10.30701,-6.87282l0,0z" stroke-width="0" stroke="#000000" fill="#000000"/>
+								<text class="fragment" data-fragment-index="0" font-style="italic" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" id="svg_17" y="108" x="380" stroke-width="0" stroke="#000000" fill="#000000">SHA-1</text>
+							</g>
+						</svg>
+					</section>
+					<section data-auto-animate data-auto-animate-id="type-of-git-objects">
+						<p>Les 3 types d'objets Git</p>
+					</section>
+					<section data-auto-animate data-auto-animate-id="type-of-git-objects">
+						<p>Les 3 types d'objets Git</p>
+						<div style="display: flex; align-items: center; justify-content: space-between;">
+							<p style="color: #c9c95a ">Blob</p>
+							<p class="fragment" style="color: #8CD79F;">Tree</p>
+							<p class="fragment" style="color: #6bbace">Commit</p>
+						</div>						
+					</section>
+					<section data-auto-animate data-auto-animate-id="blob-object">
+						<h3>Le blob</h3>
+					</section>
+					<section data-auto-animate data-auto-animate-id="blob-object">
+						<h3>Le blob</h3>
+						<p>Représente le <strong>contenu</strong> d'un objet</p>
+					</section>
+					<section data-auto-animate data-auto-animate-id="blob-object">
+						<h3>Le blob</h3>
+						<p>Représente le <strong>contenu</strong> d'un objet</p>
+						<p>Si le contenu d'un fichier change, un <strong>nouveau</strong> blob est crée</p>
+					</section>
+					<section data-auto-animate data-auto-animate-id="blob-object">
+						<h3>Le blob</h3>
+						<p>Représente le <strong>contenu</strong> d'un objet</p>
+						<p>Si le contenu d'un fichier change, un <strong>nouveau</strong> blob est crée</p>
+						<p><strong>git add</strong></p>
+					</section>
+					<section>
+						<svg width="800" height="500">
+							<g id="Layer_1">
+								<g stroke="null">
+									<path stroke="#000000" d="m267,240.55554l0,118.88892c0,26.1557 21.74988,47.55554 48.33334,47.55554l193.33331,0c26.58353,0 48.33334,-21.39984 48.33334,-47.55554l0,-118.88892c0,-26.15552 -21.74982,-47.55554 -48.33334,-47.55554l-193.33331,0c-26.58347,0 -48.33334,21.40002 -48.33334,47.55554z" stroke-miterlimit="10" stroke-width="2" fill="#c9c95a"/>
+								</g>
+								<line stroke="#000000" id="svg_5" y2="254" x2="553" y1="253" x1="271.00001" stroke-width="2" fill="none"/>
+								<line stroke="#000000" id="svg_6" y2="250" x2="412" y1="198" x1="412" stroke-width="2" fill="none"/>
+								<text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="16" id="svg_7" y="228" x="327" stroke-width="0" stroke="#000000" fill="#000000">Blob</text>
+								<text style="cursor: move;" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="16" id="svg_8" y="228" x="468" stroke-width="0" stroke="#000000" fill="#000000">19</text>
+								<text style="cursor: move;" x="292" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="16" id="svg_9" y="289" stroke-width="0" stroke="#000000" fill="#000000">1er fichier</text>
+								<path class="fragment" data-fragment-index="0" transform="rotate(90 411.925 156.549)" id="svg_16" d="m408.97131,167.67635l10.30502,-6.87273l-19.92569,0l-19.92569,0l0,-4.25446l0,-4.25446l19.69757,0c10.83267,0 19.69559,-0.21559 19.69559,-0.47926c0,-0.26341 -4.31244,-3.35634 -9.58298,-6.87279l-9.58298,-6.39349l8.85895,0l8.85696,0l13.52844,9.00851l13.52844,9.00874l-13.55423,8.9912l-13.55423,8.99155l-9.3251,0l-9.32709,0l10.30701,-6.87282l0,0z" stroke-width="0" stroke="#000000" fill="#000000"/>
+								<text class="fragment" data-fragment-index="0" style="cursor: move;" font-style="italic" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" id="svg_17" y="108" x="365" stroke-width="0" stroke="#000000" fill="#000000">0a4e3a09</text>
+								<text style="cursor: move;" x="292" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="16" id="svg_18" y="310" stroke-width="0" stroke="#000000" fill="#000000">haha</text>
+							</g>
+						</svg>
+					</section>
+					<section>
+						<p><strong>À vous de jouer !</strong></p>
+						<p>Créer un fichier, l'ajouter à l'index puis analyser le contenu du <strong>.git/objects</strong></p>
+					</section>
+					<section data-auto-animate data-auto-animate-id="tree-object">
+						<h3>Le tree</h3>
+					</section>
+					<section data-auto-animate data-auto-animate-id="tree-object">
+						<h3>Le tree</h3>
+						<p>Représente un répertoire à un <strong>instant T</strong></p>
+					</section>
+					<section data-auto-animate data-auto-animate-id="tree-object">
+						<h3>Le tree</h3>
+						<p>Représente un répertoire à un <strong>instant T</strong></p>
+						<p>Pointe sur des trees (sous-répertoires) et/ou des blobs</p>
+					</section>
+					<section data-auto-animate data-auto-animate-id="tree-object">
+						<h3>Le tree</h3>
+						<p>Représente un répertoire à un <strong>instant T</strong></p>
+						<p>Pointe sur des trees (sous-répertoires) et/ou des blobs</p>
+						<p>Créé lors du commit</p>
+					</section>
+					<section>
+						<svg width="800" height="500">
+							<g id="Layer_1">
+								<g stroke="null">
+									<path stroke="#000000" d="m267,240.55554l0,118.88892c0,26.1557 21.74988,47.55554 48.33334,47.55554l193.33331,0c26.58353,0 48.33334,-21.39984 48.33334,-47.55554l0,-118.88892c0,-26.15552 -21.74982,-47.55554 -48.33334,-47.55554l-193.33331,0c-26.58347,0 -48.33334,21.40002 -48.33334,47.55554z" stroke-miterlimit="10" stroke-width="2" fill="#8cd79f"/>
+								</g>
+								<line stroke="#000000" id="svg_5" y2="254" x2="553" y1="253" x1="271.00001" stroke-width="2" fill="none"/>
+								<line stroke="#000000" id="svg_6" y2="250" x2="412" y1="198" x1="412" stroke-width="2" fill="none"/>
+								<text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="16" id="svg_7" y="228" x="327" stroke-width="0" stroke="#000000" fill="#000000">Tree</text>
+								<text style="cursor: move;" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="16" id="svg_8" y="228" x="468" stroke-width="0" stroke="#000000" fill="#000000">37</text>
+								<text style="cursor: move;" x="292" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="16" id="svg_9" y="289" stroke-width="0" stroke="#000000" fill="#000000">040000 tree 43dd725f first-folder</text>
+								<path class="fragment" data-fragment-index="0" transform="rotate(90 411.925 156.549)" id="svg_16" d="m408.97131,167.67635l10.30502,-6.87273l-19.92569,0l-19.92569,0l0,-4.25446l0,-4.25446l19.69757,0c10.83267,0 19.69559,-0.21559 19.69559,-0.47926c0,-0.26341 -4.31244,-3.35634 -9.58298,-6.87279l-9.58298,-6.39349l8.85895,0l8.85696,0l13.52844,9.00851l13.52844,9.00874l-13.55423,8.9912l-13.55423,8.99155l-9.3251,0l-9.32709,0l10.30701,-6.87282l0,0z" stroke-width="0" stroke="#000000" fill="#000000"/>
+								<text class="fragment" data-fragment-index="0" font-style="italic" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" id="svg_17" y="108" x="367" stroke-width="0" stroke="#000000" fill="#000000">43dd725f</text>
+								<text style="cursor: move;" x="292" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="16" id="svg_18" y="310" stroke-width="0" stroke="#000000" fill="#000000">100644 blob 0a4e3a09 first.txt</text>
+							</g>
+						</svg>
+					</section>
+					<section>
+						<p><strong>À vous de jouer !</strong></p>
+						<p>Créer un ou plusieurs répertoire(s)</p>
+					</section>
+					<section data-auto-animate data-auto-animate-id="commit-object">
+						<h3>Le commit</h3>
+					</section>
+					<section data-auto-animate data-auto-animate-id="commit-object">
+						<h3>Le commit</h3>
+						<p>Représente l'état d'un projet à un <strong>instant T</strong></p>
+					</section>
+					<section data-auto-animate data-auto-animate-id="commit-object">
+						<h3>Le commit</h3>
+						<p>Représente l'état d'un projet à un <strong>instant T</strong></p>
+						<p>Pointe sur le tree représentant le dossier racine (./) à cet instant</p>
+					</section>
+					<section>
+						<svg width="800" height="500">
+							<g id="Layer_1">
+							 <g stroke="null">
+							  	<path stroke="#000000" d="m267,240.55554l0,118.88892c0,26.1557 21.74988,47.55554 48.33334,47.55554l193.33331,0c26.58353,0 48.33334,-21.39984 48.33334,-47.55554l0,-118.88892c0,-26.15552 -21.74982,-47.55554 -48.33334,-47.55554l-193.33331,0c-26.58347,0 -48.33334,21.40002 -48.33334,47.55554z" stroke-miterlimit="10" stroke-width="2" fill="#6bbace"/>
+							 </g>
+							 <line stroke="#000000" id="svg_5" y2="254" x2="553" y1="253" x1="271.00001" stroke-width="2" fill="none"/>
+							 <line stroke="#000000" id="svg_6" y2="250" x2="412" y1="198" x1="412" stroke-width="2" fill="none"/>
+							 <text style="cursor: move;" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="16" id="svg_7" y="228" x="315" stroke-width="0" stroke="#000000" fill="#000000">Commit</text>
+							 <text style="cursor: move;" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="16" id="svg_8" y="228" x="468" stroke-width="0" stroke="#000000" fill="#000000">187</text>
+							 <text x="292" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="16" id="svg_9" y="288" stroke-width="0" stroke="#000000" fill="#000000">tree b16e1493</text>
+							 <path class="fragment" data-fragment-index="0" transform="rotate(90 411.925 156.549)" id="svg_16" d="m408.97131,167.67635l10.30502,-6.87273l-19.92569,0l-19.92569,0l0,-4.25446l0,-4.25446l19.69757,0c10.83267,0 19.69559,-0.21559 19.69559,-0.47926c0,-0.26341 -4.31244,-3.35634 -9.58298,-6.87279l-9.58298,-6.39349l8.85895,0l8.85696,0l13.52844,9.00851l13.52844,9.00874l-13.55423,8.9912l-13.55423,8.99155l-9.3251,0l-9.32709,0l10.30701,-6.87282l0,0z" stroke-width="0" stroke="#000000" fill="#000000"/>
+							 <text class="fragment" data-fragment-index="0" style="cursor: move;" font-style="italic" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" id="svg_17" y="108" x="370" stroke-width="0" stroke="#000000" fill="#000000">F57e6e4</text>
+							 <text x="292" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="16" id="svg_18" y="310" stroke-width="0" stroke="#000000" fill="#000000">author test &lt;ima@gmail.com&gt;</text>
+							 <text style="cursor: move;" x="292" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="16" id="svg_19" y="333" stroke-width="0" stroke="#000000" fill="#000000">commiter test &lt;ima@gmail.com&gt;</text>
+							 <text x="292" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="16" id="svg_20" y="364" stroke-width="0" stroke="#000000" fill="#000000">First commit</text>
+							</g>
+						</svg>
+					</section>
+					<section>
+						<p><strong>À vous de jouer !</strong></p>
+						<p>Pousser un commit et regarder son contenu</p>
+					</section>
+					<section data-auto-animate data-auto-animate-id="how-commit-works">
+						<h3>Comment fonctionne un commit ?</h3>
+					</section>
+					<section data-auto-animate data-auto-animate-id="how-commit-works">
 						<h3>Comment fonctionne un commit ?</h3>
 						<svg width="800" height="500">
 							<ellipse stroke-width="0" ry="35" rx="35" id="svg_1" cy="369" cx="83" stroke="#000" fill="#6bbace"/>
-							<ellipse stroke-width="0" ry="35" rx="35" id="svg_2" cy="370" cx="286" stroke="#000" fill="#8CD79F"/>
-							<ellipse stroke-width="0" ry="35" rx="35" id="svg_3" cy="210" cx="473" stroke="#000" fill="#8CD79F"/>
-							<ellipse stroke-width="0" ry="35" rx="35" id="svg_4" cy="210" cx="715" stroke="#000" fill="#c9c95a"/>
-							<ellipse stroke-width="0" ry="35" rx="35" id="svg_6" cy="370" cx="715" stroke="#000" fill="#c9c95a"/>
-							<line stroke="#000" id="svg_15" y2="369" x2="246" y1="369" x1="123" fill="none"/>
+							<ellipse class="fragment" data-fragment-index="0" stroke-width="0" ry="35" rx="35" id="svg_2" cy="370" cx="286" stroke="#000" fill="#8CD79F"/>
+							<ellipse class="fragment" data-fragment-index="1" stroke-width="0" ry="35" rx="35" id="svg_3" cy="210" cx="473" stroke="#000" fill="#8CD79F"/>
+							<ellipse class="fragment" data-fragment-index="2" stroke-width="0" ry="35" rx="35" id="svg_4" cy="210" cx="715" stroke="#000" fill="#c9c95a"/>
+							<ellipse class="fragment" data-fragment-index="3" stroke-width="0" ry="35" rx="35" id="svg_6" cy="370" cx="715" stroke="#000" fill="#c9c95a"/>
+							<line class="fragment" data-fragment-index="0" stroke="#000" id="svg_15" y2="369" x2="246" y1="369" x1="123" fill="none"/>
 							<line id="svg_16" y2="503" x2="-209" y1="504" x1="-209" stroke="#000" fill="none"/>
-							<line stroke="#000" id="svg_17" y2="210" x2="435" y1="335" x1="305.00001" fill="none"/>
-							<line stroke="#000" id="svg_19" y2="210" x2="677" y1="210" x1="511" fill="none"/>
-							<line stroke="#000" id="svg_21" y2="369" x2="675" y1="369" x1="327.00002" fill="none"/>
-							<text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="10" stroke-width="0" id="svg_24" y="419" x="232" stroke="#000" fill="#000000">B16e1493 -&gt; tp-git-objects</text>
-							<text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="10" stroke-width="0" id="svg_25" y="419" x="647" stroke="#000" fill="#000000">0a4e3a09 -&gt;"mon premier fichier"</text>
+							<line class="fragment" data-fragment-index="1" stroke="#000" id="svg_17" y2="210" x2="435" y1="335" x1="305.00001" fill="none"/>
+							<line class="fragment" data-fragment-index="2" stroke="#000" id="svg_19" y2="210" x2="677" y1="210" x1="511" fill="none"/>
+							<line class="fragment" data-fragment-index="3" stroke="#000" id="svg_21" y2="369" x2="675" y1="369" x1="327.00002" fill="none"/>
+							<text class="fragment" data-fragment-index="0" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="10" stroke-width="0" id="svg_24" y="419" x="232" stroke="#000" fill="#000000">B16e1493 -&gt; tp-git-objects</text>
+							<text class="fragment" data-fragment-index="3" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="10" stroke-width="0" id="svg_25" y="419" x="647" stroke="#000" fill="#000000">0a4e3a09 -&gt;"mon premier fichier"</text>
 							<text stroke="#000" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="10" stroke-width="0" id="svg_26" y="419" x="33" fill="#000000">F57e6e4 -&gt; first-commit</text>
-							<text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="10" stroke-width="0" id="svg_28" y="260" x="425" stroke="#000" fill="#000000">B16e1493 -&gt; first-folder</text>
-							<text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="10" stroke-width="0" id="svg_29" y="260" x="672" stroke="#000" fill="#000000">e019be00 -&gt; "second"</text>
+							<text class="fragment" data-fragment-index="1" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="10" stroke-width="0" id="svg_28" y="260" x="425" stroke="#000" fill="#000000">B16e1493 -&gt; first-folder</text>
+							<text class="fragment" data-fragment-index="2" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="10" stroke-width="0" id="svg_29" y="260" x="672" stroke="#000" fill="#000000">e019be00 -&gt; "second"</text>
+						</svg>
+					</section>
+					<section>
+						<p>Bon, nous allons modifier le fichier <strong>second.txt</strong> puis créer un <strong>second commit</strong></p>
+					</section>
+					<section>
+						<svg width="800" height="500">
+							<g id="Layer_1">
+							 <g id="svg_1" stroke="null">
+							  	<path id="svg_2" fill="#6bbace" stroke-width="2" stroke-miterlimit="10" d="m483,240.55554l0,118.88892c0,26.1557 21.74988,47.55554 48.33337,47.55554l193.33331,0c26.5835,0 48.33331,-21.39984 48.33331,-47.55554l0,-118.88892c0,-26.15552 -21.74982,-47.55554 -48.33331,-47.55554l-193.33331,0c-26.5835,0 -48.33337,21.40002 -48.33337,47.55554z" stroke="#000000"/>
+							 </g>
+							 <line fill="none" stroke-width="2" x1="487.00001" y1="253" x2="769" y2="254" id="svg_5" stroke="#000000"/>
+							 <line fill="none" stroke-width="2" x1="628" y1="198" x2="628" y2="250" id="svg_6" stroke="#000000"/>
+							 <text fill="#000000" stroke="#000000" stroke-width="0" x="531" y="228" id="svg_7" font-size="16" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">Commit</text>
+							 <text fill="#000000" stroke="#000000" stroke-width="0" x="683" y="228" id="svg_8" font-size="16" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="normal">236</text>
+							 <text fill="#000000" stroke="#000000" stroke-width="0" y="288" id="svg_9" font-size="16" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="normal" x="508">tree 180336bf</text>
+							 <path fill="#000000" stroke="#000000" stroke-width="0" d="m624.97131,167.67635l10.30505,-6.87273l-19.92572,0l-19.92566,0l0,-4.25446l0,-4.25447l19.69757,0c10.83264,0 19.69556,-0.21558 19.69556,-0.47925c0,-0.26341 -4.31244,-3.35634 -9.58301,-6.87279l-9.58295,-6.39349l8.85895,0l8.85693,0l13.52844,9.0085l13.5285,9.00874l-13.55426,8.99121l-13.5542,8.99155l-9.32513,0l-9.32709,0l10.30701,-6.87282l0,0z" id="svg_16" transform="rotate(90 627.925 156.549)"/>
+							 <text fill="#000000" stroke="#000000" stroke-width="0" x="583" y="110" id="svg_17" font-size="24" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="normal" font-style="italic">8d342fc4</text>
+							 <text fill="#000000" stroke="#000000" stroke-width="0" y="330" id="svg_18" font-size="16" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="normal" x="508">author test &lt;ima@gmail.com&gt;</text>
+							 <text fill="#000000" stroke="#000000" stroke-width="0" y="351" id="svg_19" font-size="16" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="normal" x="508">commiter test &lt;ima@gmail.com&gt;</text>
+							 <text style="cursor: move;" fill="#000000" stroke="#000000" stroke-width="0" y="377" id="svg_20" font-size="16" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="normal" x="508">Second commit</text>
+							 <g id="svg_4" stroke="null">
+							  	<path id="svg_3" fill="#c9c95a" stroke-width="2" stroke-miterlimit="10" d="m26,240.55554l0,118.88892c0,26.1557 21.74988,47.55554 48.33337,47.55554l193.33331,0c26.5835,0 48.33331,-21.39984 48.33331,-47.55554l0,-118.88892c0,-26.15552 -21.74982,-47.55554 -48.33331,-47.55554l-193.33331,0c-26.5835,0 -48.33337,21.40002 -48.33337,47.55554z" stroke="#000000"/>
+							 </g>
+							 <line fill="none" stroke-width="2" x1="30.00001" y1="253" x2="312" y2="254" id="svg_10" stroke="#000000"/>
+							 <line fill="none" stroke-width="2" x1="171" y1="198" x2="171" y2="250" id="svg_11" stroke="#000000"/>
+							 <text fill="#000000" stroke="#000000" stroke-width="0" x="86" y="228" id="svg_12" font-size="16" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">Blob</text>
+							 <text fill="#000000" stroke="#000000" stroke-width="0" x="228" y="228" id="svg_13" font-size="16" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="normal">19</text>
+							 <text fill="#000000" stroke="#000000" stroke-width="0" y="288" id="svg_14" font-size="16" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="normal" x="51">Second with update</text>
+							 <path fill="#000000" stroke="#000000" stroke-width="0" d="m167.97131,167.67635l10.30505,-6.87273l-19.92572,0l-19.92566,0l0,-4.25446l0,-4.25447l19.69757,0c10.83264,0 19.69556,-0.21558 19.69556,-0.47925c0,-0.26341 -4.31244,-3.35634 -9.58301,-6.87279l-9.58295,-6.39349l8.85895,0l8.85693,0l13.52844,9.0085l13.5285,9.00874l-13.55426,8.99121l-13.5542,8.99155l-9.32513,0l-9.32709,0l10.30701,-6.87282l0,0z" id="svg_15" transform="rotate(90 170.925 156.549)"/>
+							 <text fill="#000000" stroke="#000000" stroke-width="0" x="127" y="110" id="svg_21" font-size="24" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="normal" font-style="italic">f4ed07be</text>
+							 <text style="cursor: move;" fill="#000000" stroke="#000000" stroke-width="0" y="309" id="svg_25" font-size="16" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="normal" x="508">parent f57e6e41</text>
+							</g>
+						</svg>
+					</section>
+					<section>
+						<p><strong>À vous de jouer !</strong></p>
+						<p>Créer un deuxième commit et regarder son contenu</p>
+					</section>
+					<section data-auto-animate data-auto-animate-id="how-versionning-works">
+						<h3>Comment est géré le versionning ?</h3>
+					</section>
+					<section data-auto-animate data-auto-animate-id="how-versionning-works">
+						<h3>Comment est géré le versionning ?</h3>
+						<svg width="800" height="500">
+							<g>
+								<ellipse fill="#6bbace" stroke="#000" cx="83" cy="369" id="svg_1" rx="35" ry="35" stroke-width="0"/>
+								<ellipse fill="#8CD79F" stroke="#000" cx="286" cy="370" id="svg_2" rx="35" ry="35" stroke-width="0"/>
+								<ellipse fill="#8CD79F" stroke="#000" cx="473" cy="210" id="svg_3" rx="35" ry="35" stroke-width="0"/>
+								<ellipse fill="#c9c95a" stroke="#000" cx="715" cy="210" id="svg_4" rx="35" ry="35" stroke-width="0"/>
+								<ellipse fill="#c9c95a" stroke="#000" cx="715" cy="370" id="svg_6" rx="35" ry="35" stroke-width="0"/>
+								<line fill="none" x1="123" y1="369" x2="246" y2="369" id="svg_15" stroke="#000"/>
+								<line fill="none" stroke="#000" x1="-209" y1="504" x2="-209" y2="503" id="svg_16"/>
+								<line fill="none" x1="305.00001" y1="335" x2="435" y2="210" id="svg_17" stroke="#000"/>
+								<line fill="none" x1="511" y1="210" x2="677" y2="210" id="svg_19" stroke="#000"/>
+								<line fill="none" x1="327.00002" y1="369" x2="675" y2="369" id="svg_21" stroke="#000"/>
+								<text fill="#000000" stroke="#000" x="232" y="419" id="svg_24" stroke-width="0" font-size="10" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve">B16e1493 -&gt; tp-git-objects</text>
+								<text fill="#000000" stroke="#000" x="647" y="419" id="svg_25" stroke-width="0" font-size="10" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve">0a4e3a09 -&gt;"mon premier fichier"</text>
+								<text fill="#000000" x="33" y="419" id="svg_26" stroke-width="0" font-size="10" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" stroke="#000">F57e6e4 -&gt; first-commit</text>
+								<text fill="#000000" stroke="#000" x="425" y="260" id="svg_28" stroke-width="0" font-size="10" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve">B16e1493 -&gt; first-folder</text>
+								<text fill="#000000" stroke="#000" x="672" y="260" id="svg_29" stroke-width="0" font-size="10" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve">e019be00 -&gt; "second"</text>
+								<ellipse class="fragment" data-fragment-index="0" fill="#6bbace" stroke="#000" cx="83" cy="90" id="svg_7" rx="35" ry="35" stroke-width="0"/>
+								<ellipse class="fragment" data-fragment-index="1" fill="#8CD79F" stroke="#000" cx="285" cy="90" id="svg_8" rx="35" ry="35" stroke-width="0"/>
+								<ellipse class="fragment" data-fragment-index="3" fill="#c9c95a" stroke="#000" cx="715" cy="90" id="svg_9" rx="35" ry="35" stroke-width="0"/>
+								<text class="fragment" data-fragment-index="0" style="cursor: move;" fill="#000000" x="26" y="141" id="svg_10" stroke-width="0" font-size="10" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" stroke="#000">8d342fc4 -&gt; second commit</text>
+								<line class="fragment" data-fragment-index="0" stroke="#000" id="svg_11" y2="329" x2="83" y1="147" x1="83" fill="none"/>
+								<text class="fragment" data-fragment-index="1" style="cursor: move;" fill="#000000" stroke="#000" x="234" y="141" id="svg_12" stroke-width="0" font-size="10" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve">180336bf -&gt; tp-git-objects</text>
+								<line class="fragment" data-fragment-index="1" fill="none" x1="123" y1="90" x2="246" y2="90" id="svg_13" stroke="#000"/>
+								<text class="fragment" data-fragment-index="3" style="cursor: move;" fill="#000000" stroke="#000" x="645" y="141" id="svg_18" stroke-width="0" font-size="10" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve">f4ed07be -&gt; "second with update"</text>
+								<ellipse class="fragment" data-fragment-index="2" fill="#8CD79F" stroke="#000" cx="472" cy="90" id="svg_20" rx="35" ry="35" stroke-width="0"/>
+								<text class="fragment" data-fragment-index="2" style="cursor: move;" fill="#000000" stroke="#000" x="425" y="141" id="svg_22" stroke-width="0" font-size="10" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve">4cd0b30a -&gt; first-folder</text>
+								<line class="fragment" data-fragment-index="2" stroke="#000" fill="none" x1="325" y1="90" x2="433" y2="90" id="svg_23"/>
+								<line class="fragment" data-fragment-index="3" fill="none" x1="511" y1="90" x2="677" y2="90" id="svg_27" stroke="#000"/>
+								<line class="fragment" data-fragment-index="4" stroke="#000" stroke-dasharray="2,2" id="svg_30" y2="342" x2="684.99999" y1="115.99999" x1="317.00001" fill="none"/>
+							</g>
 						</svg>
 					</section>
 				</section>

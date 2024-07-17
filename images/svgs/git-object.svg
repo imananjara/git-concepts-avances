@@ -1,0 +1,16 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <g stroke="null">
+   <path stroke="#000000" d="m267,240.55554l0,118.88892c0,26.1557 21.74988,47.55554 48.33334,47.55554l193.33331,0c26.58353,0 48.33334,-21.39984 48.33334,-47.55554l0,-118.88892c0,-26.15552 -21.74982,-47.55554 -48.33334,-47.55554l-193.33331,0c-26.58347,0 -48.33334,21.40002 -48.33334,47.55554z" stroke-miterlimit="10" stroke-width="2" fill="none"/>
+  </g>
+  <line stroke="#000000" id="svg_5" y2="254" x2="553" y1="253" x1="271.00001" stroke-width="2" fill="none"/>
+  <line stroke="#000000" id="svg_6" y2="250" x2="412" y1="198" x1="412" stroke-width="2" fill="none"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="16" id="svg_7" y="228" x="327" stroke-width="0" stroke="#000000" fill="#000000">Type</text>
+  <text font-weight="normal" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="16" id="svg_8" y="228" x="460" stroke-width="0" stroke="#000000" fill="#000000">Taille</text>
+  <text x="292" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="16" id="svg_9" y="289" stroke-width="0" stroke="#000000" fill="#000000">Contenu</text>
+  <path transform="rotate(90 411.925 156.549)" id="svg_16" d="m408.97131,167.67635l10.30502,-6.87273l-19.92569,0l-19.92569,0l0,-4.25446l0,-4.25446l19.69757,0c10.83267,0 19.69559,-0.21559 19.69559,-0.47926c0,-0.26341 -4.31244,-3.35634 -9.58298,-6.87279l-9.58298,-6.39349l8.85895,0l8.85696,0l13.52844,9.00851l13.52844,9.00874l-13.55423,8.9912l-13.55423,8.99155l-9.3251,0l-9.32709,0l10.30701,-6.87282l0,0z" stroke-width="0" stroke="#000000" fill="#000000"/>
+  <text font-style="italic" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" id="svg_17" y="108" x="380" stroke-width="0" stroke="#000000" fill="#000000">SHA-1</text>
+ </g>
+
+</svg>
