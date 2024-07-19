@@ -1069,6 +1069,110 @@
 						<h3>Le HEAD</h3>
 					</section>
 				</section>
+				<section>
+					<h2>Refaire l'histoire</h2>
+				</section>
+				<section>
+					<h2>J'ai tout cassé :(</h2>
+				</section>
+				<section>
+					<section>
+						<h2>Debugger avec Git</h2>
+					</section>
+					<section data-auto-animate data-auto-animate-id="git-bisect-intro">
+						<h3>git bisect</h3>
+					</section>
+					<section data-auto-animate data-auto-animate-id="git-bisect-intro">
+						<h3>git bisect</h3>
+						<p>Permet de retrouver un bug...</p>
+					</section>
+					<section data-auto-animate data-auto-animate-id="git-bisect-intro">
+						<h3>git bisect</h3>
+						<p>Permet de retrouver un bug...</p>
+						<p><strong>Et</strong> le commit qui l'a introduit</p>
+					</section>
+					<section data-auto-animate data-auto-animate-id="git-bisect-intro">
+						<h3>git bisect</h3>
+						<p>Permet de retrouver un bug...</p>
+						<p><strong>Et</strong> le commit qui l'a introduit</p>
+						<p>Surtout utile sur des gros projets où il y a beaucoup de commits / modifications</p>
+					</section>
+					<section data-auto-animate data-auto-animate-id="git-bisect-intro">
+						<h3>git bisect</h3>
+						<p>Permet de retrouver un bug...</p>
+						<p><strong>Et</strong> le commit qui l'a introduit</p>
+						<p>Surtout utile sur des gros projets où il y a beaucoup de commits / modifications</p>
+						<p>Le bisect se base sur la recherche dichotomique</p>
+					</section>
+					<section data-auto-animate data-auto-animate-id="how-bisect-works">
+						<h3>Mais comment fonctionne le bisect ?</h3>
+					</section>
+					<section data-auto-animate data-auto-animate-id="how-bisect-works">
+						<h3>Mais comment fonctionne le bisect ?</h3>
+						<svg width="850" height="450">
+							<g id="Layer_1">
+								<rect data-fragment-index="1" class="fragment custom bisect-commit" stroke="#000" id="svg_1" height="62" width="78" y="188" x="31" fill="#fff"/>
+								<rect data-fragment-index="1" class="fragment custom bisect-commit" stroke="#000" id="svg_16" height="62" width="78" y="188" x="110" fill="#fff"/>
+								<rect data-fragment-index="1" class="fragment custom bisect-commit" stroke="#000" id="svg_17" height="62" width="78" y="188" x="189" fill="#fff"/>
+								<rect data-fragment-index="1" class="fragment custom bisect-commit" stroke="#000" id="svg_18" height="62" width="78" y="188" x="268" fill="#fff"/>
+								<rect stroke="#000" id="svg_19" height="62" width="78" y="188" x="347" fill="#fff"/>
+								<rect stroke="#000" id="svg_20" height="62" width="78" y="188" x="426" fill="#ff5656"/>
+								<rect stroke="#000" id="svg_21" height="62" width="78" y="188" x="505" fill="#fff"/>
+								<rect data-fragment-index="3" class="fragment custom bisect-commit" stroke="#000" id="svg_22" height="62" width="78" y="188" x="584" fill="#fff"/>
+								<rect data-fragment-index="3" class="fragment custom bisect-commit" stroke="#000" id="svg_23" height="62" width="78" y="188" x="663" fill="#fff"/>
+								<rect data-fragment-index="3" class="fragment custom bisect-commit" stroke="#000" id="svg_24" height="62" width="78" y="188" x="742" fill="#fff"/>
+								<text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" stroke-width="0" id="svg_27" y="224" x="46" stroke="#000" fill="#000000">F57e6e4</text>
+								<text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" stroke-width="0" id="svg_28" y="224" x="122" stroke="#000" fill="#000000">180336bf</text>
+								<text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" stroke-width="0" id="svg_29" y="224" x="201" stroke="#000" fill="#000000">43dd725f</text>
+								<text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" stroke-width="0" id="svg_30" y="224" x="281" stroke="#000" fill="#000000">f4ed07be</text>
+								<text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" stroke-width="0" id="svg_31" y="224" x="357" stroke="#000" fill="#000000">B16e1493</text>
+								<text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" stroke-width="0" id="svg_32" y="224" x="438" stroke="#000" fill="#000000">0a4e3a09</text>
+								<text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" stroke-width="0" id="svg_33" y="224" x="518" stroke="#000" fill="#000000">8d342fc4</text>
+								<text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" stroke-width="0" id="svg_34" y="224" x="599" stroke="#000" fill="#000000">dc210e0</text>
+								<text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" stroke-width="0" id="svg_35" y="224" x="678" stroke="#000" fill="#000000">b598664</text>
+								<text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" stroke-width="0" id="svg_36" y="224" x="758" stroke="#000" fill="#000000">8acae19</text>
+								<g class="fragment">
+									<path stroke="#000" transform="rotate(90 465.19 160.394)" id="svg_37" d="m463.23602,169.66708l6.81717,-5.72754l-13.18161,0l-13.18161,0l0,-3.54538l0,-3.54538l13.0307,0c7.16623,0 13.02939,-0.17944 13.02939,-0.39917c0,-0.21973 -2.85284,-2.79739 -6.33951,-5.72754l-6.33951,-5.32791l5.85922,0l5.86053,0l8.94958,7.50732l8.94958,7.50687l-8.96664,7.49313l-8.96796,7.49268l-6.16891,0l-6.16891,0l6.81848,-5.72708l0,0z" fill="#000000"/>
+									<text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" stroke-width="0" id="svg_38" y="157" x="487" stroke="#000" fill="#ff5656">Commit KO</text>
+								</g>
+								<g class="fragment fade-in-then-out" data-fragment-index="0">
+									<path stroke="#000" transform="rotate(90 387.19 160.394)" id="svg_39" d="m385.23602,169.66708l6.81717,-5.72754l-13.18161,0l-13.18161,0l0,-3.54538l0,-3.54538l13.0307,0c7.16623,0 13.02939,-0.17944 13.02939,-0.39917c0,-0.21973 -2.85284,-2.79739 -6.33951,-5.72754l-6.33951,-5.32791l5.85922,0l5.86053,0l8.94958,7.50732l8.94958,7.50687l-8.96664,7.49313l-8.96796,7.49268l-6.16891,0l-6.16891,0l6.81848,-5.72708l0,0z" fill="#000000"/>
+									<text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" stroke-width="0" id="svg_40" y="157" x="409" stroke="#000" fill="#8cd79f">Commit OK</text>
+								</g>
+								<g class="fragment fade-in-then-out" data-fragment-index="2">
+									<path stroke="#000" transform="rotate(90 546.19 160.394)" id="svg_41" d="m544.23602,169.66708l6.8172,-5.72754l-13.18164,0l-13.18164,0l0,-3.54538l0,-3.54538l13.0307,0c7.16626,0 13.02942,-0.17944 13.02942,-0.39917c0,-0.21973 -2.85284,-2.79739 -6.33954,-5.72754l-6.33948,-5.32791l5.85925,0l5.86047,0l8.94958,7.50732l8.94958,7.50687l-8.96661,7.49313l-8.96796,7.49268l-6.16895,0l-6.16888,0l6.81848,-5.72708l0,0z" fill="#000000"/>
+									<text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" stroke-width="0" id="svg_42" y="157" x="568" stroke="#000" fill="#ff5656">Commit KO</text>
+								</g>
+							</g>
+						</svg>
+						<p class="fragment"><small>Commit trouvé => 0a4e3a09</small></p>
+					</section>
+					<section>
+						<h3>Comment utiliser le bisect ?</h3>
+					</section>
+					<section>
+						<ol class="bisect-step-list">
+							<li>On démarre la recherche : <span style="font-style: italic;">git bisect start</span></li>
+							<li class="fragment fade-up">On identifie le premier commit problématique connu : <span style="font-style: italic;">git bisect bad SHA-1</span> (par défaut HEAD)</li>
+							<li class="fragment fade-up">On identifie un commit où il n'y avait pas le problème : <span style="font-style: italic;">git bisect good SHA-1</span></li>
+							<li class="fragment fade-up">Git propose de tester des commits. On tape <span style="font-style: italic;">git bisect bad </span>ou <span style="font-style: italic;">git bisect good</span></li>
+							<li class="fragment fade-up">Git trouve le commit qui a introduit le bug</li>
+						</ol>
+					</section>
+					<section>
+						<p><strong>À vous de jouer !</strong></p>
+						<p>Télécharger le <a href="http://drive.delicious-insights.com/assets/bisect-demo.zip">dépôt</a> et trouver le bug</p>
+					</section>
+					<section>
+						<p>On peut exécuter un script à chaque étape : <span style="font-style: italic;">git bisect run ./script.sh</span></p>
+					</section>
+					<section>
+						<p>On peut logger les étapes de recherche : <span style="font-style: italic;">git bisect log</span></p>
+					</section>
+					<section>
+						<p>On peut ignorer des commits / tags : <span style="font-style: italic;">git bisect skip SHA-1/tag</span></p>
+					</section>
+				</section>
 			</div>
 		</div>
 

@@ -13,9 +13,21 @@
     transition: translate 0.5s ease-in-out;
 }
 
-.fragment {
-    transition: all 0.5s ease-in-out;
+.bisect-step-list li {
+    margin-bottom: 20px;
 }
-.hidden {
-    display: none;
+
+.bisect-step-list li:last-child {
+    margin-bottom: 0;
 }
+
+.ignored-zone {
+    fill: aqua;
+}
+
+.fragment.bisect-commit {
+    fill: #fff;
+  }
+  .fragment.bisect-commit.visible {
+    fill: #b2b2b2;
+  }
