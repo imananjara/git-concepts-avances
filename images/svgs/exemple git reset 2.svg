@@ -1,0 +1,22 @@
+<svg width="800" height="350" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <line id="svg_16" y2="503" x2="-209" y1="504" x1="-209" stroke="#000" fill="none"/>
+  <ellipse stroke-width="0" ry="35" rx="35" id="svg_8" cy="187" cx="111" stroke="#000" fill="#8CD79F"/>
+  <ellipse stroke-width="0" ry="35" rx="35" id="svg_2" cy="187" cx="254" stroke="#000" fill="#8cd79f"/>
+  <ellipse stroke-width="0" ry="35" rx="35" id="svg_3" cy="187" cx="398" stroke="#000" fill="#8cd79f"/>
+  <line fill="none" stroke="#000" x1="150" y1="187" x2="214" y2="187" id="svg_1"/>
+  <line fill="none" stroke="#000" x1="294" y1="187" x2="358" y2="187" id="svg_5"/>
+  <path fill="#aa56ff" d="m215.80499,90.48499l54.75,0l18.25,20l-18.25,19.99999l-54.75,0l18.25,-19.99999l-18.25,-20z" id="svg_7" stroke-width="0" stroke="#000" transform="rotate(90 252.305 110.485)"/>
+  <text fill="#ffffff" stroke="#000" stroke-width="0" x="244" y="117" id="svg_9" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">test</text>
+  <path fill="#aa56ff" d="m361.80499,90.48499l54.75,0l18.25,20l-18.25,19.99999l-54.75,0l18.25,-19.99999l-18.25,-20z" id="svg_10" stroke-width="0" stroke="#000" transform="rotate(90 398.305 110.485)"/>
+  <text fill="#ffffff" stroke="#000" stroke-width="0" x="390" y="117" id="svg_11" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">test</text>
+  <path fill="#ff5656" d="m361.80499,241l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" id="svg_14" stroke-width="0" stroke="#000" transform="rotate(-90 398.305 261)"/>
+  <text fill="#ffffff" stroke="#000" stroke-width="0" x="381" y="264" id="svg_15" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">HEAD</text>
+  <path fill="#ff5656" d="m215.80499,241l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" id="svg_17" stroke-width="0" stroke="#000" transform="rotate(-90 252.305 261)"/>
+  <text fill="#ffffff" stroke="#000" stroke-width="0" x="235" y="264" id="svg_18" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">HEAD</text>
+  <line fill="none" stroke="#000" x1="294" y1="187" x2="358" y2="187" id="svg_19"/>
+  <ellipse stroke-width="0" ry="35" rx="35" id="svg_20" cy="187" cx="398" stroke="#000" fill="#6bbace"/>
+ </g>
+
+</svg>

@@ -700,7 +700,7 @@
 							<p style="color: #c9c95a ">Blob</p>
 							<p class="fragment" style="color: #8CD79F;">Tree</p>
 							<p class="fragment" style="color: #6bbace">Commit</p>
-						</div>						
+						</div>
 					</section>
 					<section data-auto-animate data-auto-animate-id="blob-object">
 						<h3>Le blob</h3>
@@ -914,10 +914,10 @@
 						</svg>
 					</section>
 					<section data-auto-animate data-auto-animate-id="git-refs-example">
-						<p>Maintenant regardons ce qu'il y a dans <strong>.git/refs</strong></p>
+						<p>Maintenant, regardons ce qu'il y a dans <strong>.git/refs</strong></p>
 					</section>
 					<section data-auto-animate data-auto-animate-id="git-refs-example">
-						<p>Maintenant regardons ce qu'il y a dans <strong>.git/refs</strong></p>
+						<p>Maintenant, regardons ce qu'il y a dans <strong>.git/refs</strong></p>
 						<pre><code class="bash" data-trim data-line-numbers>
 							drwxr-xr-x   4 imananjara  staff  128 17 jul 17:00 .
 							drwxr-xr-x  13 imananjara  staff  416 17 jul 17:07 ..
@@ -969,7 +969,7 @@
 					<section data-auto-animate data-auto-animate-id="git-refs-concepts">
 						<h3>Les références</h3>
 						<p>Permet de référencer un commit</p>
-						<p>2 types de références : 
+						<p>2 types de références :
 							<span class="fragment">les branches (<span style="font-style: italic;">heads</span>) </span>
 							<span class="fragment">et les tags simples (<span style="font-style: italic;">tags</span>)</span>
 						</p>
@@ -1009,7 +1009,7 @@
 									<path stroke="#000" stroke-width="0" id="svg_31" d="m8.685,74.62998l57.00034,0l18.99966,17l-18.99966,17l-57.00034,0l19.00013,-17l-19.00013,-17z" fill="#ff5656"/>
 									<text font-weight="bold" stroke="#000" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" stroke-width="0" id="svg_32" y="95" x="31" fill="#000000">branch1</text>
 								</g>
-							</g>  
+							</g>
 						</svg>
 					</section>
 					<section data-auto-animate data-auto-animate-id="merge-principle">
@@ -1024,11 +1024,11 @@
 								<ellipse stroke-width="0" ry="35" rx="35" id="svg_2" cy="313" cx="146" stroke="#000" fill="#8CD79F"/>
 								<ellipse stroke-width="0" ry="35" rx="35" id="svg_3" cy="198" cx="261" stroke="#000" fill="#6bbace"/>
 								<ellipse stroke-width="0" ry="35" rx="35" id="svg_4" cy="83" cx="261" stroke="#000" fill="#6bbace"/>
-								
+
 								<line fill="none" stroke="#000" x1="146" y1="353" x2="146" y2="388" id="svg_51"/>
 								<line fill="none" x1="203.61937" y1="214.42677" x2="203.61937" y2="294.77667" id="svg_53" transform="rotate(45 203.619 254.602)" stroke="#000"/>
 								<line fill="none" stroke="#000" x1="262" y1="124" x2="262" y2="159" id="svg_54"/>
-								
+
 								<path fill="#aa56ff" d="m34.80499,290.48499l54.75,0l18.25001,20l-18.25001,20l-54.75,0l18.25,-20l-18.25,-20z" id="svg_59" stroke-width="0" stroke="#000"/>
 								<g data-fragment-index="0" class="fragment fade-right">
 									<path fill="#e5e5e5" d="m325.67999,227.95001l95.45212,0l79.54788,34.99994l-79.54788,35.00006l-95.45212,0l0,-70z" id="svg_66" stroke="#000" stroke-width="0"/>
@@ -1056,7 +1056,7 @@
 								<path fill="#bf5f00" d="m148.80499,62.48499l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" id="svg_69" stroke-width="0" stroke="#000"/>
 								<text fill="#ffffff" stroke="#000" stroke-width="0" x="59" y="314" id="svg_74" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">master</text>
 								<text fill="#ffffff" stroke="#000" stroke-width="0" x="170" y="86" id="svg_75" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">branch1</text>
-								
+
 							</g>
 							<defs>
 								<filter id="svg_73_blur">
@@ -1070,7 +1070,438 @@
 					</section>
 				</section>
 				<section>
-					<h2>Refaire l'histoire</h2>
+					<section>
+						<h2>Refaire l'histoire</h2>
+					</section>
+					<section data-auto-animate data-auto-animate-id="git-rebase-concept">
+						<h3>Le rebase</h3>
+					</section>
+					<section data-auto-animate data-auto-animate-id="git-rebase-concept">
+						<h3>Le rebase</h3>
+						<p>"Déplace" un commit ou une séquence de commit d'une base à une autre</p>
+					</section>
+					<section data-auto-animate data-auto-animate-id="git-rebase-concept">
+						<h3>Le rebase</h3>
+						<p>"Déplace" un commit ou une séquence de commit d'une base à une autre</p>
+						<p style="font-style: italic;">git rebase ref / SHA-1</p>
+					</section>
+					<section data-auto-animate data-auto-animate-id="how-rebase-works">
+						<h3>Comment fonctionne le rebase ?</h3>
+					</section>
+					<section data-auto-animate data-auto-animate-id="how-rebase-works">
+						<h3>Comment fonctionne le rebase ?</h3>
+						<svg width="800" height="500">
+							<g>
+								<line fill="none" stroke="#000" x1="-209" y1="504" x2="-209" y2="503" id="svg_16"/>
+								<ellipse fill="#8CD79F" stroke="#000" cx="146" cy="428" id="svg_8" rx="35" ry="35" stroke-width="0"/>
+								<ellipse fill="#8CD79F" stroke="#000" cx="146" cy="313" id="svg_2" rx="35" ry="35" stroke-width="0"/>
+								<ellipse fill="#6bbace" stroke="#000" cx="258" cy="313" id="svg_3" rx="35" ry="35" stroke-width="0"/>
+								<ellipse fill="#6bbace" stroke="#000" cx="258" cy="198" id="svg_4" rx="35" ry="35" stroke-width="0"/>
+								<g data-fragment-index="1" class="fragment">
+									<ellipse fill="#8CD79F" stroke="#000" cx="558" cy="428" id="svg_14" rx="35" ry="35" stroke-width="0"/>
+									<ellipse fill="#8CD79F" stroke="#000" cx="558" cy="313" id="svg_15" rx="35" ry="35" stroke-width="0"/>
+									<line id="svg_52" y2="388" x2="559" y1="353" x1="559" stroke="#000" fill="none"/>
+									<path stroke="#000" stroke-width="0" id="svg_71" d="m445.80499,291.48499l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" fill="#aa56ff"/>
+									<text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" id="svg_76" y="315" x="471" stroke-width="0" stroke="#000" fill="#ffffff">master</text>
+								</g>
+								<line id="svg_51" y2="388" x2="146" y1="353" x1="146" stroke="#000" fill="none"/>
+								<line stroke="#000" transform="rotate(45 200.619 369.602)" id="svg_53" y2="409.77667" x2="200.61937" y1="329.42677" x1="200.61937" fill="none"/>
+								<line id="svg_54" y2="274" x2="259" y1="239" x1="259" stroke="#000" fill="none"/>
+								<path stroke="#000" stroke-width="0" id="svg_59" d="m34.80499,290.48499l54.75,0l18.25001,20l-18.25001,20l-54.75,0l18.25,-20l-18.25,-20z" fill="#aa56ff"/>
+								<path stroke="#000" stroke-width="0" id="svg_69" d="m145.80499,177.48499l54.75,0l18.25,20.00002l-18.25,20l-54.75,0l18.25,-20l-18.25,-20.00002z" fill="#bf5f00"/>
+								<path data-fragment-index="4" class="fragment" transform="rotate(180 748.305 84.485)" filter="url(#svg_73_blur)" stroke="#000" stroke-width="0" id="svg_73" d="m711.80499,64.48499l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" fill="#bf5f00"/>
+								<text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" id="svg_74" y="314" x="59" stroke-width="0" stroke="#000" fill="#ffffff">master</text>
+								<text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" id="svg_75" y="201" x="167" stroke-width="0" stroke="#000" fill="#ffffff">branch1</text>
+								<text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" id="svg_79" y="88" x="722" stroke-width="0" stroke="#000" fill="#ffffff">branch1</text>
+								<ellipse data-fragment-index="2" class="fragment" fill="#6bbace" stroke="#000" cx="673" cy="201" id="svg_1" rx="35" ry="35" stroke-width="0"/>
+								<ellipse data-fragment-index="3" class="fragment" fill="#6bbace" stroke="#000" cx="673" cy="86" id="svg_5" rx="35" ry="35" stroke-width="0"/>
+								<line data-fragment-index="2" class="fragment" stroke="#000" transform="rotate(45 615.619 257.602)" id="svg_6" y2="297.77667" x2="615.61937" y1="217.42677" x1="615.61937" fill="none"/>
+								<line data-fragment-index="3" class="fragment" id="svg_7" y2="161" x2="673" y1="126" x1="673" stroke="#000" fill="none"/>
+								<line data-fragment-index="2" class="fragment" stroke-dasharray="5,5" stroke="#000" id="svg_10" y2="207" x2="634" y1="300" x1="297" fill="none"/>
+								<line data-fragment-index="3" class="fragment" stroke-dasharray="5,5" id="svg_11" y2="95" x2="634" y1="186" x1="296" stroke="#000" fill="none"/>
+								<line id="svg_12" y2="-82" x2="-405" y1="-83" x1="-406" stroke="#000" fill="none"/>
+								<g data-fragment-index="0" class="fragment">
+									<rect stroke-width="0" id="svg_13" height="40" width="137" y="395" x="305" stroke-dasharray="5,5" stroke="#000" fill="#191919"/>
+									<text font-style="italic" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" id="svg_18" y="419" x="324" stroke-dasharray="5,5" stroke-width="0" stroke="#000" fill="#ffffff">git rebase master</text>
+								</g>
+							</g>
+							<defs>
+							 <filter id="svg_73_blur">
+							  <feGaussianBlur stdDeviation="0" in="SourceGraphic"/>
+							 </filter>
+							</defs>
+						</svg>
+					</section>
+					<section data-auto-animate data-auto-animate-id="interactive-rebase-concept">
+						<h3>Le rebase interactif</h3>
+					</section>
+					<section data-auto-animate data-auto-animate-id="interactive-rebase-concept">
+						<h3>Le rebase interactif</h3>
+						<p>Permet de "déplacer" <strong>et</strong> "modifier" un commit / une séquence de commit</p>
+					</section>
+					<section data-auto-animate data-auto-animate-id="interactive-rebase-concept">
+						<h3>Le rebase interactif</h3>
+						<p>Permet de "déplacer" <strong>et</strong> "modifier" un commit / une séquence de commit</p>
+						<p style="font-style: italic;">git rebase –i ref / SHA-1 / HEAD~n</p>
+					</section>
+					<section>
+						<pre><code class="bash" data-line-numbers data-trim data-noescape>
+							pick b66e634 Add test2.txt
+							squash 6fe836b Add test3.txt
+							reword b9677c4 Add test4.txt
+							drop ef3ec3c Add test5.txt
+							pick 9e929de Add test6.txt
+
+							# Rebase 24e1a63..9e929de onto 24e1a63 (5 commands)
+							#
+							# Commands:
+							# p, pick <commit> = use commit
+							# r, reword <commit> = use commit, but edit the commit message
+							# e, edit <commit> = use commit, but stop for amending
+							# s, squash <commit> = use commit, but meld into previous commit
+							# f, fixup <commit> = like "squash", but discard this commit's log message
+							# x, exec <command> = run command (the rest of the line) using shell
+							# b, break = stop here (continue rebase later with 'git rebase --continue')
+							# d, drop <commit> = remove commit
+						</code></pre>
+					</section>
+					<section data-auto-animate data-auto-animate-id="interactive-rebase-options">
+						<p><strong>pick</strong> : récupérer le commit</p>
+					</section>
+					<section data-auto-animate data-auto-animate-id="interactive-rebase-options">
+						<p><strong>pick</strong> : récupérer le commit</p>
+						<p><strong>drop</strong> : supprimer le commit</p>
+					</section>
+					<section data-auto-animate data-auto-animate-id="interactive-rebase-options">
+						<p><strong>pick</strong> : récupérer le commit</p>
+						<p><strong>drop</strong> : supprimer le commit</p>
+						<p><strong>squash (ou fixup)</strong> : fusionner le commit avec le précédent</p>
+					</section>
+					<section data-auto-animate data-auto-animate-id="interactive-rebase-options">
+						<p><strong>pick</strong> : récupérer le commit</p>
+						<p><strong>drop</strong> : supprimer le commit</p>
+						<p><strong>squash (ou fixup)</strong> : fusionner le commit avec le précédent</p>
+						<p><strong>reword</strong> : changer le message du commit</p>
+					</section>
+					<section data-auto-animate data-auto-animate-id="interactive-rebase-options">
+						<p><strong>pick</strong> : récupérer le commit</p>
+						<p><strong>drop</strong> : supprimer le commit</p>
+						<p><strong>squash (ou fixup)</strong> : fusionner le commit avec le précédent</p>
+						<p><strong>reword</strong> : changer le message du commit</p>
+						<p><strong>edit</strong> : ajouter du contenu dans le commit</p>
+					</section>
+					<section>
+						<h3>Comment le rebase interactif fonctionne ?</h3>
+					</section>
+					<section data-auto-animate data-auto-animate-id="how-interactive-rebase-works">
+						<pre><code data-line-numbers data-trim data-noescape>
+							pick b66e634 Add test2.txt
+							squash 6fe836b Add test3.txt
+							reword b9677c4 Add test4.txt
+							drop ef3ec3c Add test5.txt
+						</code></pre>
+					</section>
+					<section data-auto-animate data-auto-animate-id="how-interactive-rebase-works">
+						<pre><code data-line-numbers data-trim data-noescape>
+							pick b66e634 Add test2.txt
+							squash 6fe836b Add test3.txt
+							reword b9677c4 Add test4.txt
+							drop ef3ec3c Add test5.txt
+						</code></pre>
+						<svg width="570" height="530">
+							<g>
+								<line fill="none" stroke="#000" x1="-209" y1="504" x2="-209" y2="503" id="svg_16"/>
+								<ellipse fill="#8CD79F" stroke="#000" cx="146" cy="468" id="svg_8" rx="35" ry="35" stroke-width="0"/>
+								<ellipse fill="#6bbace" stroke="#000" cx="146" cy="368" id="svg_2" rx="35" ry="35" stroke-width="0"/>
+								<line id="svg_51" y2="429" x2="146" y1="407" x1="146" fill="none" stroke="#000"/>
+								<path stroke="#000" stroke-width="0" id="svg_59" d="m34.80499,449.48499l54.75,0l18.25001,20l-18.25001,20l-54.75,0l18.25,-20l-18.25,-20z" fill="#aa56ff"/>
+								<text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" id="svg_74" y="473" x="59" stroke-width="0" stroke="#000" fill="#ffffff">master</text>
+								<line id="svg_12" y2="-82" x2="-405" y1="-83" x1="-406" stroke="#000" fill="none"/>
+								<path transform="rotate(180 219.305 63.485)" filter="url(#svg_73_blur)" stroke="#000" stroke-width="0" id="svg_31" d="m182.80499,43.485l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" fill="#bf5f00"/>
+								<text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" id="svg_32" y="67" x="194" stroke-width="0" stroke="#000" fill="#ffffff">branch1</text>
+								<ellipse fill="#6bbace" stroke="#000" cx="146" cy="267" id="svg_33" rx="35" ry="35" stroke-width="0"/>
+								<line id="svg_34" y2="328" x2="146" y1="306" x1="146" fill="none" stroke="#000"/>
+								<ellipse fill="#6bbace" stroke="#000" cx="146" cy="165" id="svg_35" rx="35" ry="35" stroke-width="0"/>
+								<line id="svg_36" y2="226" x2="146" y1="204" x1="146" fill="none" stroke="#000"/>
+								<ellipse fill="#6bbace" stroke="#000" cx="146" cy="64" id="svg_37" rx="35" ry="35" stroke-width="0"/>
+								<line id="svg_38" y2="125" x2="146" y1="103" x1="146" fill="none" stroke="#000"/>
+								<ellipse fill="#8CD79F" stroke="#000" cx="430" cy="468" id="svg_48" rx="35" ry="35" stroke-width="0"/>
+								<g data-fragment-index="2" class="fragment">
+									<ellipse fill="#6bbace" stroke="#000" cx="430" cy="368" id="svg_49" rx="35" ry="35" stroke-width="0"/>
+									<line id="svg_50" y2="429" x2="430" y1="407" x1="430" fill="none" stroke="#000"/>
+									<text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" id="svg_10" y="373" x="470" stroke-dasharray="5,5" stroke-width="0" stroke="#000" fill="#000000">Add test2-3.txt</text>
+								</g>
+								<path stroke="#000" stroke-width="0" id="svg_52" d="m318.80499,449.48499l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" fill="#aa56ff"/>
+								<text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" id="svg_53" y="473" x="343" stroke-width="0" stroke="#000" fill="#ffffff">master</text>
+								<g data-fragment-index="4" class="fragment">
+									<ellipse fill="#6bbace" stroke="#000" cx="430" cy="267" id="svg_56" rx="35" ry="35" stroke-width="0"/>
+									<line id="svg_57" y2="328" x2="430" y1="306" x1="430" fill="none" stroke="#000"/>
+									<text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" id="svg_11" y="270" x="470" stroke-dasharray="5,5" stroke-width="0" stroke="#000" fill="#000000">Add test-test</text>
+								</g>
+								<g data-fragment-index="5" class="fragment fade-up">
+									<path filter="url(#svg_73_blur)" stroke="#000" stroke-width="0" id="svg_67" d="m320.80499,246.485l54.75,0l18.25,19.99998l-18.25,20l-54.75,0l18.25,-20l-18.25,-19.99998z" fill="#bf5f00"/>
+									<text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" id="svg_68" y="270" x="341" stroke-width="0" stroke="#000" fill="#ffffff">branch1</text>
+								</g>
+
+								<line data-fragment-index="0" class="fragment" stroke="#000" stroke-dasharray="5,5" id="svg_1" y2="371" x2="390.99999" y1="364" x1="185" fill="none"/>
+								<line data-fragment-index="1"  class="fragment" stroke="#000" id="svg_3" y2="350" x2="392.99999" y1="269" x1="184.99999" stroke-dasharray="5,5" fill="none"/>
+								<text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" stroke-width="0" id="svg_4" y="371" x="44" stroke-dasharray="5,5" stroke="#000" fill="#000000">Add test2.txt</text>
+								<text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" stroke-width="0" id="svg_5" y="268" x="43" stroke-dasharray="5,5" stroke="#000" fill="#000000">Add test3.txt</text>
+								<text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" stroke-width="0" id="svg_6" y="169" x="44" stroke-dasharray="5,5" stroke="#000" fill="#000000">Add test4.txt</text>
+								<text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" stroke-width="0" id="svg_7" y="66" x="44" stroke-dasharray="5,5" stroke="#000" fill="#000000">Add test5.txt</text>
+								<line data-fragment-index="3" class="fragment" stroke-dasharray="5,5" stroke="#000" id="svg_9" y2="245" x2="395.00001" y1="171" x1="185" fill="none"/>
+							</g>
+							<defs>
+							 <filter id="svg_73_blur">
+							  <feGaussianBlur stdDeviation="0" in="SourceGraphic"/>
+							 </filter>
+							</defs>
+						</svg>
+					</section>
+					<section data-auto-animate data-auto-animate-id="git-reset-concepts">
+						<h3>Le reset</h3>
+					</section>
+					<section data-auto-animate data-auto-animate-id="git-reset-concepts">
+						<h3>Le reset</h3>
+						<p>Permet de désindexer (unstage) un fichier...</p>
+					</section>
+					<section data-auto-animate data-auto-animate-id="git-reset-concepts">
+						<h3>Le reset</h3>
+						<p>Permet de désindexer (unstage) un fichier...</p>
+						<p>Ou de revenir sur un commit plus ancien...</p>
+					</section>
+					<section data-auto-animate data-auto-animate-id="git-reset-concepts">
+						<h3>Le reset</h3>
+						<p>Permet de désindexer (unstage) un fichier...</p>
+						<p>Ou de revenir sur un commit plus ancien...</p>
+						<p>En conservant (ou non) les modifications</p>
+					</section>
+					<section>
+						<svg width="800" height="550">
+							<g id="Layer_1">
+								<text fill="#ffffff" stroke="#000" stroke-width="0" x="240" y="233" id="svg_17" font-size="16" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">Stash zone</text>
+								<path fill="#ff5656" opacity="undefined" d="m185,80l128,0l0,50l-128,0l0,-50z" id="svg_18" stroke-width="0" stroke="#000"/>
+								<path fill="#6bbace" opacity="undefined" d="m333,80l128,0l0,50l-128,0l0,-50z" id="svg_20" stroke-width="0" stroke="#000"/>
+								<path fill="#8cd79f" opacity="undefined" d="m482,80l128,0l0,50l-128,0l0,-50z" id="svg_21" stroke-width="0" stroke="#000"/>
+								<text fill="#ffffff" stroke="#000" stroke-width="0" x="189" y="110" id="svg_24" font-size="15" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">Working directory</text>
+								<text fill="#ffffff" stroke="#000" stroke-width="0" x="356" y="110" id="svg_25" font-size="15" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">Staging zone</text>
+								<text fill="#ffffff" stroke="#000" stroke-width="0" x="494" y="110" id="svg_27" font-size="15" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">Local repository</text>
+								<line fill="none" x1="250" y1="130" x2="250" y2="477" id="svg_31" stroke="#000"/>
+								<line fill="none" x1="397" y1="130" x2="397" y2="477" id="svg_32" stroke="#000"/>
+								<line fill="none" x1="545" y1="130" x2="545" y2="477" id="svg_33" stroke="#000"/>
+								<g class="fragment">
+									<path stroke="#000" transform="rotate(180 470.16 200.1)" fill="#7f003f" d="m398.65997,176.10001l107.24994,0l35.75006,23.99979l-35.75006,24.00021l-107.24994,0l35.74994,-24.00021l-35.74994,-23.99979z" id="svg_6" stroke-width="0"/>
+									<text fill="#ffffff" stroke="#000" stroke-width="0" x="418" y="203" id="svg_7" font-size="15" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-style="italic">git reset --soft</text>
+								</g>
+								<g class="fragment">
+									<path transform="rotate(180 396.66 288.1)" stroke="#000" fill="#7f003f" d="m249.66003,264.10001l220.49988,0l73.50012,23.99979l-73.50012,24.00021l-220.49988,0l73.49988,-24.00021l-73.49988,-23.99979z" id="svg_44" stroke-width="0"/>
+									<text fill="#ffffff" stroke="#000" stroke-width="0" x="342" y="292" id="svg_52" font-size="15" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-style="italic">git reset --mixed</text>
+								</g>
+								<g class="fragment">
+									<path stroke="#000" transform="rotate(180 349.16 376.1)" fill="#7f003f" d="m154.66003,352.10001l291.74985,0l97.25015,23.99979l-97.25015,24.00021l-291.74985,0l97.24983,-24.00021l-97.24983,-23.99979z" id="svg_10" stroke-width="0"/>
+									<text fill="#ffffff" stroke="#000" stroke-width="0" x="305" y="379" id="svg_11" font-size="15" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-style="italic">git reset --hard</text>
+								</g>
+							</g>
+						</svg>
+					</section>
+					<section>
+						<h3>Quelques cas d'utilisation</h3>
+					</section>
+					<section>
+						<p>J'ai envie de fusionner plusieurs commit</p>
+					</section>
+					<section>
+						<pre><code class="bash" data-trim data-noescape data-line-numbers>
+							git reset --soft HEAD~2
+							git commit -m "New commit"
+						</code></pre>
+						<svg width="800" height="350">
+							<g>
+								<line fill="none" stroke="#000" x1="-209" y1="504" x2="-209" y2="503" id="svg_16"/>
+								<ellipse fill="#8CD79F" stroke="#000" cx="111" cy="187" id="svg_8" rx="35" ry="35" stroke-width="0"/>
+								<ellipse fill="#8cd79f" stroke="#000" cx="254" cy="187" id="svg_2" rx="35" ry="35" stroke-width="0"/>
+								<g class="fragment fade-out" data-fragment-index="0">
+									<ellipse fill="#8cd79f" stroke="#000" cx="398" cy="187" id="svg_3" rx="35" ry="35" stroke-width="0"/>
+									<ellipse fill="#8cd79f" stroke="#000" cx="542" cy="187" id="svg_4" rx="35" ry="35" stroke-width="0"/>
+									<line id="svg_5" y2="187" x2="358" y1="187" x1="294" stroke="#000" fill="none"/>
+									<line id="svg_6" y2="187" x2="502" y1="187" x1="438" stroke="#000" fill="none"/>
+								</g>
+								<g class="fragment fade-out" data-fragment-index="0">
+									<path transform="rotate(90 540.305 110)" stroke="#000" stroke-width="0" id="svg_59" d="m503.80499,90l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" fill="#aa56ff"/>
+									<text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" id="svg_74" y="117" x="532" stroke-width="0" stroke="#000" fill="#ffffff">test</text>
+								</g>
+								<line id="svg_1" y2="187" x2="214" y1="187" x1="150" stroke="#000" fill="none"/>
+								<g data-fragment-index="0" class="fragment fade-in-then-out">
+									<path transform="rotate(90 252.305 110.485)" stroke="#000" stroke-width="0" id="svg_7" d="m215.80499,90.48499l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" fill="#aa56ff"/>
+									<text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" id="svg_9" y="117" x="244" stroke-width="0" stroke="#000" fill="#ffffff">test</text>
+								</g>
+								<g data-fragment-index="1" class="fragment">
+									<path transform="rotate(90 398.305 110.485)" stroke="#000" stroke-width="0" id="svg_10" d="m361.80499,90.48499l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" fill="#aa56ff"/>
+									<text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" id="svg_11" y="117" x="390" stroke-width="0" stroke="#000" fill="#ffffff">test</text>
+								</g>
+								<g class="fragment fade-out" data-fragment-index="0">
+									<path transform="rotate(-90 541.305 261)" stroke="#000" stroke-width="0" id="svg_12" d="m504.80499,241l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" fill="#ff5656"/>
+									<text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" id="svg_13" y="264" x="524" stroke-width="0" stroke="#000" fill="#ffffff">HEAD</text>
+								</g>
+								<g data-fragment-index="1"  class="fragment">
+									<path transform="rotate(-90 398.305 261)" stroke="#000" stroke-width="0" id="svg_14" d="m361.80499,241l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" fill="#ff5656"/>
+									<text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" id="svg_15" y="264" x="381" stroke-width="0" stroke="#000" fill="#ffffff">HEAD</text>
+								</g>
+								<g data-fragment-index="0" class="fragment fade-in-then-out">
+									<path transform="rotate(-90 252.305 261)" stroke="#000" stroke-width="0" id="svg_17" d="m215.80499,241l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" fill="#ff5656"/>
+									<text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" id="svg_18" y="264" x="235" stroke-width="0" stroke="#000" fill="#ffffff">HEAD</text>
+								</g>
+								<g data-fragment-index="1" class="fragment">
+									<line id="svg_19" y2="187" x2="358" y1="187" x1="294" stroke="#000" fill="none"/>
+									<ellipse fill="#6bbace" stroke="#000" cx="398" cy="187" id="svg_20" rx="35" ry="35" stroke-width="0"/>
+								</g>
+							</g>
+					   </svg>
+					</section>
+					<section>
+						<p>J'ai envie de déplacer les n derniers commits de master sur une nouvelle branche</p>
+					</section>
+					<section>
+						<pre><code class="bash" data-trim data-noescape data-line-numbers>
+							git checkout -b test
+							git checkout master
+							git reset --hard~2
+						</code></pre>
+						<svg width="800" height="380">
+							<g>
+								<line fill="none" stroke="#000" x1="-209" y1="504" x2="-209" y2="503" id="svg_16"/>
+								<ellipse fill="#8CD79F" stroke="#000" cx="111" cy="235" id="svg_8" rx="35" ry="35" stroke-width="0"/>
+								<ellipse fill="#8cd79f" stroke="#000" cx="254" cy="235" id="svg_2" rx="35" ry="35" stroke-width="0"/>
+								<ellipse fill="#8cd79f" stroke="#000" cx="398" cy="235" id="svg_3" rx="35" ry="35" stroke-width="0"/>
+								<ellipse fill="#8cd79f" stroke="#000" cx="542" cy="235" id="svg_4" rx="35" ry="35" stroke-width="0"/>
+								<line id="svg_1" y2="235" x2="214" y1="235" x1="150" stroke="#000" fill="none"/>
+								<line id="svg_5" y2="235" x2="358" y1="235" x1="294" stroke="#000" fill="none"/>
+								<line id="svg_6" y2="235" x2="502" y1="235" x1="438" stroke="#000" fill="none"/>
+								<g data-fragment-index="1" class="fragment">
+									<path transform="rotate(90 252.305 158.485)" stroke="#000" stroke-width="0" id="svg_7" d="m215.80499,138.485l54.75,0l18.25,20l-18.25,19.99998l-54.75,0l18.25,-19.99998l-18.25,-20z" fill="#b76105"/>
+									<text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" id="svg_9" y="165" x="235" stroke-width="0" stroke="#000" fill="#ffffff">master</text>
+								</g>
+								<g data-fragment-index="1" class="fragment fade-out">
+									<g>
+										<path transform="rotate(90 540.305 158)" stroke="#000" stroke-width="0" id="svg_59" d="m503.80499,138l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" fill="#b76105"/>
+										<text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" id="svg_74" y="165" x="523" stroke-width="0" stroke="#000" fill="#ffffff">master</text>
+									</g>
+									<g data-fragment-index="0" class="fragment">
+										<path transform="rotate(90 541.305 89.485)" stroke="#000" stroke-width="0" id="svg_10" d="m504.80499,69.485l54.75,0l18.25,20l-18.25,19.99998l-54.75,0l18.25,-19.99998l-18.25,-20z" fill="#aa56ff"/>
+										<text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" id="svg_11" y="96" x="533" stroke-width="0" stroke="#000" fill="#ffffff">test</text>
+									</g>
+								</g>
+								<g class="fragment" data-fragment-index="1">
+									<path transform="rotate(90 540.305 158)" stroke="#000" stroke-width="0" id="svg_59" d="m503.80499,138l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" fill="#aa56ff"/>
+									<text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" id="svg_74" y="165" x="532" stroke-width="0" stroke="#000" fill="#ffffff">test</text>
+								</g>
+								<g data-fragment-index="1" class="fragment fade-out">
+									<path transform="rotate(-90 541.305 309)" stroke="#000" stroke-width="0" id="svg_12" d="m504.80499,289l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" fill="#ff5656"/>
+									<text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" id="svg_13" y="312" x="524" stroke-width="0" stroke="#000" fill="#ffffff">HEAD</text>
+								</g>
+								<g data-fragment-index="1" class="fragment">
+									<path transform="rotate(-90 252.305 309)" stroke="#000" stroke-width="0" id="svg_17" d="m215.80499,289l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" fill="#ff5656"/>
+									<text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" id="svg_18" y="312" x="235" stroke-width="0" stroke="#000" fill="#ffffff">HEAD</text>
+								</g>
+								<g class="fragment" data-fragment-index="1">
+									<ellipse fill="#6bbace" stroke="#000" cx="398" cy="235" id="svg_19" rx="35" ry="35" stroke-width="0"/>
+									<ellipse fill="#6bbace" stroke="#000" cx="542" cy="235" id="svg_20" rx="35" ry="35" stroke-width="0"/>
+								</g>
+
+							</g>
+						</svg>
+					</section>
+					<section>
+						<p>J'ai envie de synchroniser ma branche avec sa version distante</p>
+					</section>
+					<section>
+						<pre><code class="bash" data-trim data-noescape data-line-numbers>
+							git reset --hard origin/master
+						</code></pre>
+						<svg width="800" height="380">
+							<g>
+								<line id="svg_16" y2="503" x2="-209" y1="504" x1="-209" stroke="#000" fill="none"/>
+								<ellipse stroke-width="0" ry="35" rx="35" id="svg_8" cy="235" cx="111" stroke="#000" fill="#8CD79F"/>
+								<ellipse stroke-width="0" ry="35" rx="35" id="svg_2" cy="235" cx="254" stroke="#000" fill="#8cd79f"/>
+								<ellipse stroke-width="0" ry="35" rx="35" id="svg_3" cy="235" cx="398" stroke="#000" fill="#8cd79f"/>
+								<ellipse stroke-width="0" ry="35" rx="35" id="svg_4" cy="235" cx="542" stroke="#000" fill="#8cd79f"/>
+								<path fill="#b76105" d="m503.80499,138l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" id="svg_59" stroke-width="0" stroke="#000" transform="rotate(90 540.305 158)"/>
+								<text fill="#ffffff" stroke="#000" stroke-width="0" x="523" y="159" id="svg_74" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">origin/</text>
+								<line fill="none" stroke="#000" x1="150" y1="235" x2="214" y2="235" id="svg_1"/>
+								<line fill="none" stroke="#000" x1="294" y1="235" x2="358" y2="235" id="svg_5"/>
+								<line fill="none" stroke="#000" x1="438" y1="235" x2="502" y2="235" id="svg_6"/>
+								<g data-fragment-index="0" class="fragment fade-out">
+									<path fill="#3f007f" d="m215.80499,138.485l54.75,0l18.25,20l-18.25,19.99998l-54.75,0l18.25,-19.99998l-18.25,-20z" id="svg_7" stroke-width="0" stroke="#000" transform="rotate(90 252.305 158.485)"/>
+									<text fill="#ffffff" stroke="#000" stroke-width="0" x="235" y="165" id="svg_9" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">master</text>
+								</g>
+
+								<g data-fragment-index="0" class="fragment">
+									<path fill="#ff5656" d="m504.80499,289l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" id="svg_12" stroke-width="0" stroke="#000" transform="rotate(-90 541.305 309)"/>
+									<text fill="#ffffff" stroke="#000" stroke-width="0" x="524" y="312" id="svg_13" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">HEAD</text>
+								</g>
+								<g data-fragment-index="0" class="fragment fade-out">
+									<path fill="#ff5656" d="m215.80499,289l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" id="svg_17" stroke-width="0" stroke="#000" transform="rotate(-90 252.305 309)"/>
+									<text fill="#ffffff" stroke="#000" stroke-width="0" x="235" y="312" id="svg_18" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">HEAD</text>
+								</g>
+
+								<text style="cursor: move;" fill="#ffffff" stroke="#000" stroke-width="0" x="523" y="172" id="svg_14" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">master</text>
+								<g data-fragment-index="0" class="fragment">
+									<path fill="#3f007f" d="m503.80499,74.485l54.75,0l18.25,20l-18.25,19.99998l-54.75,0l18.25,-19.99998l-18.25,-20z" id="svg_15" stroke-width="0" stroke="#000" transform="rotate(90 540.305 94.485)"/>
+									<text fill="#ffffff" stroke="#000" stroke-width="0" x="523" y="101" id="svg_21" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">master</text>
+								</g>
+
+							</g>
+					   </svg>
+					</section>
+					<section>
+						<p>J'ai envie de corriger le dernier commit</p>
+					</section>
+					<section>
+						<pre><code class="bash" data-trim data-noescape data-line-numbers>
+							git reset [--mixed | --soft] HEAD~1
+							git add .
+							git commit -m "Updated commit"
+						</code></pre>
+						<svg width="800" height="350" xmlns="http://www.w3.org/2000/svg">
+							<g>
+								<line id="svg_16" y2="503" x2="-209" y1="504" x1="-209" stroke="#000" fill="none"/>
+								<ellipse stroke-width="0" ry="35" rx="35" id="svg_8" cy="187" cx="111" stroke="#000" fill="#8CD79F"/>
+								<ellipse stroke-width="0" ry="35" rx="35" id="svg_2" cy="187" cx="254" stroke="#000" fill="#8cd79f"/>
+								<ellipse class="fragment fade-out" data-fragment-index="0" stroke-width="0" ry="35" rx="35" id="svg_3" cy="187" cx="398" stroke="#000" fill="#8cd79f"/>
+								<line fill="none" stroke="#000" x1="150" y1="187" x2="214" y2="187" id="svg_1"/>
+								<line class="fragment fade-out" data-fragment-index="0" fill="none" stroke="#000" x1="294" y1="187" x2="358" y2="187" id="svg_5"/>
+								<g class="fragment fade-in-then-out" data-fragment-index="0">
+									<path fill="#aa56ff" d="m215.80499,90.48499l54.75,0l18.25,20l-18.25,19.99999l-54.75,0l18.25,-19.99999l-18.25,-20z" id="svg_7" stroke-width="0" stroke="#000" transform="rotate(90 252.305 110.485)"/>
+									<text fill="#ffffff" stroke="#000" stroke-width="0" x="244" y="117" id="svg_9" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">test</text>
+								</g>
+								<g class="fragment fade-out" data-fragment-index="0">
+									<path fill="#aa56ff" d="m361.80499,90.48499l54.75,0l18.25,20l-18.25,19.99999l-54.75,0l18.25,-19.99999l-18.25,-20z" id="svg_10" stroke-width="0" stroke="#000" transform="rotate(90 398.305 110.485)"/>
+									<text fill="#ffffff" stroke="#000" stroke-width="0" x="390" y="117" id="svg_11" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">test</text>
+								</g>
+								<g class="fragment" data-fragment-index="1">
+									<path fill="#aa56ff" d="m361.80499,90.48499l54.75,0l18.25,20l-18.25,19.99999l-54.75,0l18.25,-19.99999l-18.25,-20z" id="svg_10" stroke-width="0" stroke="#000" transform="rotate(90 398.305 110.485)"/>
+									<text fill="#ffffff" stroke="#000" stroke-width="0" x="390" y="117" id="svg_11" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">test</text>
+								</g>
+								<g class="fragment fade-out" data-fragment-index="0">
+									<path fill="#ff5656" d="m361.80499,241l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" id="svg_14" stroke-width="0" stroke="#000" transform="rotate(-90 398.305 261)"/>
+									<text fill="#ffffff" stroke="#000" stroke-width="0" x="381" y="264" id="svg_15" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">HEAD</text>
+								</g>
+								<g class="fragment" data-fragment-index="1">
+									<path fill="#ff5656" d="m361.80499,241l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" id="svg_14" stroke-width="0" stroke="#000" transform="rotate(-90 398.305 261)"/>
+									<text fill="#ffffff" stroke="#000" stroke-width="0" x="381" y="264" id="svg_15" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">HEAD</text>
+								</g>
+								<g class="fragment fade-in-then-out" data-fragment-index="0">
+									<path fill="#ff5656" d="m215.80499,241l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" id="svg_17" stroke-width="0" stroke="#000" transform="rotate(-90 252.305 261)"/>
+									<text fill="#ffffff" stroke="#000" stroke-width="0" x="235" y="264" id="svg_18" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">HEAD</text>
+								</g>
+								<g class="fragment" data-fragment-index="1">
+									<line fill="none" stroke="#000" x1="294" y1="187" x2="358" y2="187" id="svg_19"/>
+									<ellipse stroke-width="0" ry="35" rx="35" id="svg_20" cy="187" cx="398" stroke="#000" fill="#6bbace"/>
+								</g>
+
+							</g>
+						</svg>
+					</section>
 				</section>
 				<section>
 					<h2>J'ai tout cassé :(</h2>
@@ -1171,6 +1602,11 @@
 					</section>
 					<section>
 						<p>On peut ignorer des commits / tags : <span style="font-style: italic;">git bisect skip SHA-1/tag</span></p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Conclusion</h2>
 					</section>
 				</section>
 			</div>

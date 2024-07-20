@@ -1,0 +1,23 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <text fill="#ffffff" stroke="#000" stroke-width="0" x="240" y="233" id="svg_17" font-size="16" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">Stash zone</text>
+  <path fill="#ff5656" opacity="undefined" d="m185,80l128,0l0,50l-128,0l0,-50z" id="svg_18" stroke-width="0" stroke="#000"/>
+  <path fill="#6bbace" opacity="undefined" d="m333,80l128,0l0,50l-128,0l0,-50z" id="svg_20" stroke-width="0" stroke="#000"/>
+  <path fill="#8cd79f" opacity="undefined" d="m482,80l128,0l0,50l-128,0l0,-50z" id="svg_21" stroke-width="0" stroke="#000"/>
+  <text fill="#ffffff" stroke="#000" stroke-width="0" x="189" y="110" id="svg_24" font-size="15" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">Working directory</text>
+  <text fill="#ffffff" stroke="#000" stroke-width="0" x="356" y="110" id="svg_25" font-size="15" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">Staging zone</text>
+  <text fill="#ffffff" stroke="#000" stroke-width="0" x="494" y="110" id="svg_27" font-size="15" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">Local repository</text>
+  <line fill="none" x1="250" y1="130" x2="250" y2="477" id="svg_31" stroke="#000"/>
+  <line fill="none" x1="397" y1="130" x2="397" y2="477" id="svg_32" stroke="#000"/>
+  <line fill="none" x1="545" y1="130" x2="545" y2="477" id="svg_33" stroke="#000"/>
+  <path transform="rotate(180 396.66 288.1)" stroke="#000" fill="#7f003f" d="m249.66003,264.10001l220.49988,0l73.50012,23.99979l-73.50012,24.00021l-220.49988,0l73.49988,-24.00021l-73.49988,-23.99979z" id="svg_44" stroke-width="0"/>
+  <text fill="#ffffff" stroke="#000" stroke-width="0" x="342" y="292" id="svg_52" font-size="15" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-style="italic">git reset --mixed</text>
+  <text fill="#ffffff" stroke="#000" stroke-width="0" x="148" y="400" id="svg_53" font-size="15" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-style="italic">git stash</text>
+  <path stroke="#000" transform="rotate(180 470.16 200.1)" fill="#7f003f" d="m398.65997,176.10001l107.24994,0l35.75006,23.99979l-35.75006,24.00021l-107.24994,0l35.74994,-24.00021l-35.74994,-23.99979z" id="svg_6" stroke-width="0"/>
+  <text fill="#ffffff" stroke="#000" stroke-width="0" x="418" y="203" id="svg_7" font-size="15" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-style="italic">git reset --soft</text>
+  <path stroke="#000" transform="rotate(180 349.16 376.1)" fill="#7f003f" d="m154.66003,352.10001l291.74985,0l97.25015,23.99979l-97.25015,24.00021l-291.74985,0l97.24983,-24.00021l-97.24983,-23.99979z" id="svg_10" stroke-width="0"/>
+  <text fill="#ffffff" stroke="#000" stroke-width="0" x="305" y="379" id="svg_11" font-size="15" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-style="italic">git reset --hard</text>
+ </g>
+
+</svg>

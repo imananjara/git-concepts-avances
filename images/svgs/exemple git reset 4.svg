@@ -1,0 +1,25 @@
+<svg width="800" height="380" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <line id="svg_16" y2="503" x2="-209" y1="504" x1="-209" stroke="#000" fill="none"/>
+  <ellipse stroke-width="0" ry="35" rx="35" id="svg_8" cy="235" cx="111" stroke="#000" fill="#8CD79F"/>
+  <ellipse stroke-width="0" ry="35" rx="35" id="svg_2" cy="235" cx="254" stroke="#000" fill="#8cd79f"/>
+  <ellipse stroke-width="0" ry="35" rx="35" id="svg_3" cy="235" cx="398" stroke="#000" fill="#8cd79f"/>
+  <ellipse stroke-width="0" ry="35" rx="35" id="svg_4" cy="235" cx="542" stroke="#000" fill="#8cd79f"/>
+  <path fill="#b76105" d="m503.80499,138l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" id="svg_59" stroke-width="0" stroke="#000" transform="rotate(90 540.305 158)"/>
+  <text fill="#ffffff" stroke="#000" stroke-width="0" x="523" y="159" id="svg_74" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">origin/</text>
+  <line fill="none" stroke="#000" x1="150" y1="235" x2="214" y2="235" id="svg_1"/>
+  <line fill="none" stroke="#000" x1="294" y1="235" x2="358" y2="235" id="svg_5"/>
+  <line fill="none" stroke="#000" x1="438" y1="235" x2="502" y2="235" id="svg_6"/>
+  <path fill="#3f007f" d="m215.80499,138.485l54.75,0l18.25,20l-18.25,19.99998l-54.75,0l18.25,-19.99998l-18.25,-20z" id="svg_7" stroke-width="0" stroke="#000" transform="rotate(90 252.305 158.485)"/>
+  <text fill="#ffffff" stroke="#000" stroke-width="0" x="235" y="165" id="svg_9" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">master</text>
+  <path fill="#ff5656" d="m504.80499,289l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" id="svg_12" stroke-width="0" stroke="#000" transform="rotate(-90 541.305 309)"/>
+  <text fill="#ffffff" stroke="#000" stroke-width="0" x="524" y="312" id="svg_13" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">HEAD</text>
+  <path fill="#ff5656" d="m215.80499,289l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" id="svg_17" stroke-width="0" stroke="#000" transform="rotate(-90 252.305 309)"/>
+  <text fill="#ffffff" stroke="#000" stroke-width="0" x="235" y="312" id="svg_18" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">HEAD</text>
+  <text style="cursor: move;" fill="#ffffff" stroke="#000" stroke-width="0" x="523" y="172" id="svg_14" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">master</text>
+  <path fill="#3f007f" d="m503.80499,74.485l54.75,0l18.25,20l-18.25,19.99998l-54.75,0l18.25,-19.99998l-18.25,-20z" id="svg_15" stroke-width="0" stroke="#000" transform="rotate(90 540.305 94.485)"/>
+  <text fill="#ffffff" stroke="#000" stroke-width="0" x="523" y="101" id="svg_21" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">master</text>
+ </g>
+
+</svg>

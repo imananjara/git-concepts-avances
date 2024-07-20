@@ -1,0 +1,38 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <line fill="none" stroke="#000" x1="-209" y1="504" x2="-209" y2="503" id="svg_16"/>
+  <ellipse fill="#8CD79F" stroke="#000" cx="146" cy="428" id="svg_8" rx="35" ry="35" stroke-width="0"/>
+  <ellipse fill="#8CD79F" stroke="#000" cx="146" cy="313" id="svg_2" rx="35" ry="35" stroke-width="0"/>
+  <ellipse fill="#6bbace" stroke="#000" cx="258" cy="313" id="svg_3" rx="35" ry="35" stroke-width="0"/>
+  <ellipse fill="#6bbace" stroke="#000" cx="258" cy="198" id="svg_4" rx="35" ry="35" stroke-width="0"/>
+  <ellipse fill="#8CD79F" stroke="#000" cx="558" cy="428" id="svg_14" rx="35" ry="35" stroke-width="0"/>
+  <ellipse fill="#8CD79F" stroke="#000" cx="558" cy="313" id="svg_15" rx="35" ry="35" stroke-width="0"/>
+  <line id="svg_51" y2="388" x2="146" y1="353" x1="146" stroke="#000" fill="none"/>
+  <line id="svg_52" y2="388" x2="559" y1="353" x1="559" stroke="#000" fill="none"/>
+  <line stroke="#000" transform="rotate(45 200.619 369.602)" id="svg_53" y2="409.77667" x2="200.61937" y1="329.42677" x1="200.61937" fill="none"/>
+  <line id="svg_54" y2="274" x2="259" y1="239" x1="259" stroke="#000" fill="none"/>
+  <path stroke="#000" stroke-width="0" id="svg_59" d="m34.80499,290.48499l54.75,0l18.25001,20l-18.25001,20l-54.75,0l18.25,-20l-18.25,-20z" fill="#aa56ff"/>
+  <path stroke="#000" stroke-width="0" id="svg_69" d="m145.80499,177.48499l54.75,0l18.25,20.00002l-18.25,20l-54.75,0l18.25,-20l-18.25,-20.00002z" fill="#bf5f00"/>
+  <path stroke="#000" stroke-width="0" id="svg_71" d="m445.80499,291.48499l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" fill="#aa56ff"/>
+  <path transform="rotate(180 748.305 84.485)" filter="url(#svg_73_blur)" stroke="#000" stroke-width="0" id="svg_73" d="m711.80499,64.48499l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" fill="#bf5f00"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" id="svg_74" y="314" x="59" stroke-width="0" stroke="#000" fill="#ffffff">master</text>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" id="svg_75" y="201" x="167" stroke-width="0" stroke="#000" fill="#ffffff">branch1</text>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" id="svg_76" y="315" x="471" stroke-width="0" stroke="#000" fill="#ffffff">master</text>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" id="svg_79" y="88" x="722" stroke-width="0" stroke="#000" fill="#ffffff">branch1</text>
+  <ellipse fill="#6bbace" stroke="#000" cx="673" cy="201" id="svg_1" rx="35" ry="35" stroke-width="0"/>
+  <ellipse fill="#6bbace" stroke="#000" cx="673" cy="86" id="svg_5" rx="35" ry="35" stroke-width="0"/>
+  <line stroke="#000" transform="rotate(45 615.619 257.602)" id="svg_6" y2="297.77667" x2="615.61937" y1="217.42677" x1="615.61937" fill="none"/>
+  <line id="svg_7" y2="161" x2="673" y1="126" x1="673" stroke="#000" fill="none"/>
+  <line stroke-dasharray="5,5" stroke="#000" id="svg_10" y2="207" x2="634" y1="300" x1="297" fill="none"/>
+  <line stroke-dasharray="5,5" id="svg_11" y2="95" x2="634" y1="186" x1="296" stroke="#000" fill="none"/>
+  <line id="svg_12" y2="-82" x2="-405" y1="-83" x1="-406" stroke="#000" fill="none"/>
+  <rect stroke-width="0" id="svg_13" height="40" width="137" y="395" x="305" stroke-dasharray="5,5" stroke="#000" fill="#191919"/>
+  <text font-style="italic" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" id="svg_18" y="419" x="324" stroke-dasharray="5,5" stroke-width="0" stroke="#000" fill="#ffffff">git rebase master</text>
+ </g>
+ <defs>
+  <filter id="svg_73_blur">
+   <feGaussianBlur stdDeviation="0" in="SourceGraphic"/>
+  </filter>
+ </defs>
+</svg>

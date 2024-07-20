@@ -1,0 +1,43 @@
+<svg width="570" height="530" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <line fill="none" stroke="#000" x1="-209" y1="504" x2="-209" y2="503" id="svg_16"/>
+  <ellipse fill="#8CD79F" stroke="#000" cx="146" cy="468" id="svg_8" rx="35" ry="35" stroke-width="0"/>
+  <ellipse fill="#6bbace" stroke="#000" cx="146" cy="368" id="svg_2" rx="35" ry="35" stroke-width="0"/>
+  <line id="svg_51" y2="429" x2="146" y1="407" x1="146" fill="none" stroke="#000"/>
+  <path stroke="#000" stroke-width="0" id="svg_59" d="m34.80499,449.48499l54.75,0l18.25001,20l-18.25001,20l-54.75,0l18.25,-20l-18.25,-20z" fill="#aa56ff"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" id="svg_74" y="473" x="59" stroke-width="0" stroke="#000" fill="#ffffff">master</text>
+  <line id="svg_12" y2="-82" x2="-405" y1="-83" x1="-406" stroke="#000" fill="none"/>
+  <path transform="rotate(180 219.305 63.485)" filter="url(#svg_73_blur)" stroke="#000" stroke-width="0" id="svg_31" d="m182.80499,43.485l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" fill="#bf5f00"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" id="svg_32" y="67" x="194" stroke-width="0" stroke="#000" fill="#ffffff">branch1</text>
+  <ellipse fill="#6bbace" stroke="#000" cx="146" cy="267" id="svg_33" rx="35" ry="35" stroke-width="0"/>
+  <line id="svg_34" y2="328" x2="146" y1="306" x1="146" fill="none" stroke="#000"/>
+  <ellipse fill="#6bbace" stroke="#000" cx="146" cy="165" id="svg_35" rx="35" ry="35" stroke-width="0"/>
+  <line id="svg_36" y2="226" x2="146" y1="204" x1="146" fill="none" stroke="#000"/>
+  <ellipse fill="#6bbace" stroke="#000" cx="146" cy="64" id="svg_37" rx="35" ry="35" stroke-width="0"/>
+  <line id="svg_38" y2="125" x2="146" y1="103" x1="146" fill="none" stroke="#000"/>
+  <ellipse fill="#8CD79F" stroke="#000" cx="430" cy="468" id="svg_48" rx="35" ry="35" stroke-width="0"/>
+  <ellipse fill="#6bbace" stroke="#000" cx="430" cy="368" id="svg_49" rx="35" ry="35" stroke-width="0"/>
+  <line id="svg_50" y2="429" x2="430" y1="407" x1="430" fill="none" stroke="#000"/>
+  <path stroke="#000" stroke-width="0" id="svg_52" d="m318.80499,449.48499l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" fill="#aa56ff"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" id="svg_53" y="473" x="343" stroke-width="0" stroke="#000" fill="#ffffff">master</text>
+  <ellipse fill="#6bbace" stroke="#000" cx="430" cy="267" id="svg_56" rx="35" ry="35" stroke-width="0"/>
+  <line id="svg_57" y2="328" x2="430" y1="306" x1="430" fill="none" stroke="#000"/>
+  <path filter="url(#svg_73_blur)" stroke="#000" stroke-width="0" id="svg_67" d="m320.80499,246.485l54.75,0l18.25,19.99998l-18.25,20l-54.75,0l18.25,-20l-18.25,-19.99998z" fill="#bf5f00"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" id="svg_68" y="270" x="341" stroke-width="0" stroke="#000" fill="#ffffff">branch1</text>
+  <line stroke="#000" stroke-dasharray="5,5" id="svg_1" y2="371" x2="390.99999" y1="364" x1="185" fill="none"/>
+  <line stroke="#000" id="svg_3" y2="350" x2="392.99999" y1="269" x1="184.99999" stroke-dasharray="5,5" fill="none"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" stroke-width="0" id="svg_4" y="371" x="44" stroke-dasharray="5,5" stroke="#000" fill="#000000">Add test2.txt</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" stroke-width="0" id="svg_5" y="268" x="43" stroke-dasharray="5,5" stroke="#000" fill="#000000">Add test3.txt</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" stroke-width="0" id="svg_6" y="169" x="44" stroke-dasharray="5,5" stroke="#000" fill="#000000">Add test4.txt</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" stroke-width="0" id="svg_7" y="66" x="44" stroke-dasharray="5,5" stroke="#000" fill="#000000">Add test5.txt</text>
+  <line stroke-dasharray="5,5" stroke="#000" id="svg_9" y2="245" x2="395.00001" y1="171" x1="185" fill="none"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" id="svg_10" y="373" x="470" stroke-dasharray="5,5" stroke-width="0" stroke="#000" fill="#000000">Add test2-3.txt</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" id="svg_11" y="270" x="470" stroke-dasharray="5,5" stroke-width="0" stroke="#000" fill="#000000">Add test-test</text>
+ </g>
+ <defs>
+  <filter id="svg_73_blur">
+   <feGaussianBlur stdDeviation="0" in="SourceGraphic"/>
+  </filter>
+ </defs>
+</svg>

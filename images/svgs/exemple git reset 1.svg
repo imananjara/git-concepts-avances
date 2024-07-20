@@ -1,0 +1,28 @@
+<svg width="800" height="350" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <line fill="none" stroke="#000" x1="-209" y1="504" x2="-209" y2="503" id="svg_16"/>
+  <ellipse fill="#8CD79F" stroke="#000" cx="111" cy="187" id="svg_8" rx="35" ry="35" stroke-width="0"/>
+  <ellipse fill="#8cd79f" stroke="#000" cx="254" cy="187" id="svg_2" rx="35" ry="35" stroke-width="0"/>
+  <ellipse fill="#8cd79f" stroke="#000" cx="398" cy="187" id="svg_3" rx="35" ry="35" stroke-width="0"/>
+  <ellipse fill="#8cd79f" stroke="#000" cx="542" cy="187" id="svg_4" rx="35" ry="35" stroke-width="0"/>
+  <path transform="rotate(90 540.305 110)" stroke="#000" stroke-width="0" id="svg_59" d="m503.80499,90l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" fill="#aa56ff"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" id="svg_74" y="117" x="532" stroke-width="0" stroke="#000" fill="#ffffff">test</text>
+  <line id="svg_1" y2="187" x2="214" y1="187" x1="150" stroke="#000" fill="none"/>
+  <line id="svg_5" y2="187" x2="358" y1="187" x1="294" stroke="#000" fill="none"/>
+  <line id="svg_6" y2="187" x2="502" y1="187" x1="438" stroke="#000" fill="none"/>
+  <path transform="rotate(90 252.305 110.485)" stroke="#000" stroke-width="0" id="svg_7" d="m215.80499,90.48499l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" fill="#aa56ff"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" id="svg_9" y="117" x="244" stroke-width="0" stroke="#000" fill="#ffffff">test</text>
+  <path transform="rotate(90 398.305 110.485)" stroke="#000" stroke-width="0" id="svg_10" d="m361.80499,90.48499l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" fill="#aa56ff"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" id="svg_11" y="117" x="390" stroke-width="0" stroke="#000" fill="#ffffff">test</text>
+  <path transform="rotate(-90 541.305 261)" stroke="#000" stroke-width="0" id="svg_12" d="m504.80499,241l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" fill="#ff5656"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" id="svg_13" y="264" x="524" stroke-width="0" stroke="#000" fill="#ffffff">HEAD</text>
+  <path transform="rotate(-90 398.305 261)" stroke="#000" stroke-width="0" id="svg_14" d="m361.80499,241l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" fill="#ff5656"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" id="svg_15" y="264" x="381" stroke-width="0" stroke="#000" fill="#ffffff">HEAD</text>
+  <path transform="rotate(-90 252.305 261)" stroke="#000" stroke-width="0" id="svg_17" d="m215.80499,241l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" fill="#ff5656"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="12" id="svg_18" y="264" x="235" stroke-width="0" stroke="#000" fill="#ffffff">HEAD</text>
+  <line id="svg_19" y2="187" x2="358" y1="187" x1="294" stroke="#000" fill="none"/>
+  <ellipse fill="#6bbace" stroke="#000" cx="398" cy="187" id="svg_20" rx="35" ry="35" stroke-width="0"/>
+ </g>
+
+</svg>
