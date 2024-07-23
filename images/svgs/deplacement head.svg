@@ -1,0 +1,35 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <line id="svg_16" y2="503" x2="-209" y1="504" x1="-209" stroke="#000" fill="none"/>
+  <ellipse stroke-width="0" ry="35" rx="35" id="svg_8" cy="428" cx="146" stroke="#000" fill="#8CD79F"/>
+  <ellipse stroke-width="0" ry="35" rx="35" id="svg_2" cy="313" cx="146" stroke="#000" fill="#8CD79F"/>
+  <ellipse stroke-width="0" ry="35" rx="35" id="svg_3" cy="198" cx="316" stroke="#000" fill="#6bbace"/>
+  <ellipse stroke-width="0" ry="35" rx="35" id="svg_4" cy="83" cx="316" stroke="#000" fill="#6bbace"/>
+  <line fill="none" stroke="#000" x1="146" y1="353" x2="146" y2="388" id="svg_51"/>
+  <line stroke="#000" fill="none" x1="232.43797" y1="188.98582" x2="227.92696" y2="317.97324" id="svg_53" transform="rotate(53.5937 230.182 253.48)"/>
+  <line fill="none" stroke="#000" x1="317" y1="124" x2="317" y2="159" id="svg_54"/>
+  <path fill="#aa56ff" d="m34.80499,290.48499l54.75,0l18.25001,20l-18.25001,20l-54.75,0l18.25,-20l-18.25,-20z" id="svg_59" stroke-width="0" stroke="#000"/>
+  <path fill="#bf5f00" d="m204.80499,62.48499l54.75,0l18.25,20.00002l-18.25,20l-54.75,0l18.25,-20l-18.25,-20.00002z" id="svg_69" stroke-width="0" stroke="#000"/>
+  <text fill="#ffffff" stroke="#000" stroke-width="0" x="59" y="314" id="svg_74" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">master</text>
+  <text fill="#ffffff" stroke="#000" stroke-width="0" x="226" y="86" id="svg_75" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">branch1</text>
+  <line fill="none" stroke="#000" x1="-406" y1="-83" x2="-405" y2="-82" id="svg_12"/>
+  <ellipse stroke-width="0" ry="35" rx="35" id="svg_1" cy="199" cx="146" stroke="#000" fill="#8CD79F"/>
+  <line fill="none" stroke="#000" x1="146" y1="239" x2="146" y2="274" id="svg_5"/>
+  <path transform="rotate(180 221.305 310.485)" fill="#ff5656" d="m184.80499,290.48499l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" id="svg_6" stroke-width="0" stroke="#000"/>
+  <text fill="#ffffff" stroke="#000" stroke-width="0" x="201" y="314" id="svg_7" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">HEAD</text>
+  <path transform="rotate(180 221.305 427.485)" fill="#ff5656" d="m184.80499,407.48499l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" id="svg_10" stroke-width="0" stroke="#000"/>
+  <text fill="#ffffff" stroke="#000" stroke-width="0" x="201" y="431" id="svg_11" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">HEAD</text>
+  <path transform="rotate(180 391.305 196.485)" fill="#ff5656" d="m354.80499,176.48499l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" id="svg_13" stroke-width="0" stroke="#000"/>
+  <text fill="#ffffff" stroke="#000" stroke-width="0" x="371" y="200" id="svg_14" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">HEAD</text>
+  <path transform="rotate(180 391.305 81.485)" fill="#ff5656" d="m354.80499,61.48499l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" id="svg_15" stroke-width="0" stroke="#000"/>
+  <text fill="#ffffff" stroke="#000" stroke-width="0" x="371" y="85" id="svg_17" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">HEAD</text>
+  <path fill="#aa56ff" d="m34.80499,178.48499l54.75,0l18.25001,20l-18.25001,20l-54.75,0l18.25,-20l-18.25,-20z" id="svg_18" stroke-width="0" stroke="#000"/>
+  <text fill="#ffffff" stroke="#000" stroke-width="0" x="59" y="202" id="svg_19" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">master</text>
+  <path transform="rotate(180 221.305 196.485)" fill="#ff5656" d="m184.80499,176.48499l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" id="svg_20" stroke-width="0" stroke="#000"/>
+  <text fill="#ffffff" stroke="#000" stroke-width="0" x="201" y="200" id="svg_21" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">HEAD</text>
+  <path fill="#bf5f00" d="m204.80499,176.48499l54.75,0l18.25,20.00002l-18.25,20l-54.75,0l18.25,-20l-18.25,-20.00002z" id="svg_22" stroke-width="0" stroke="#000"/>
+  <text fill="#ffffff" stroke="#000" stroke-width="0" x="226" y="200" id="svg_23" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">branch1</text>
+ </g>
+
+</svg>
