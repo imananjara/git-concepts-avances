@@ -1612,7 +1612,159 @@
 					</section>
 				</section>
 				<section>
-					<h2>J'ai tout cassé :(</h2>
+					<section>
+						<h2>J'ai tout cassé :(</h2>
+					</section>
+					<section data-auto-animate data-auto-animate-id="git-reflog-concepts">
+						<h3>Le reflog</h3>
+					</section>
+					<section data-auto-animate data-auto-animate-id="git-reflog-concepts">
+						<h3>Le reflog</h3>
+						<p><strong>re</strong>ference <strong>log</strong></p>
+					</section>
+					<section data-auto-animate data-auto-animate-id="git-reflog-concepts">
+						<h3>Le reflog</h3>
+						<p><strong>re</strong>ference <strong>log</strong></p>
+						<p style="font-style: italic;">git reflog show HEAD</p>
+					</section>
+					<section data-auto-animate data-auto-animate-id="git-reflog-concepts">
+						<h3>Le reflog</h3>
+						<p><strong>re</strong>ference <strong>log</strong></p>
+						<p style="font-style: italic;">git reflog show HEAD</p>
+						<p>On peut logger les déplacements d'autres références (<span style="font-style: italic">git reflog show ref</span>)</p>
+					</section>
+					<section data-auto-animate data-auto-animate-id="reflog-entry">
+						<h3>À quoi ressemble une entrée dans le reflog ?</h3>
+					</section>
+					<section data-auto-animate data-auto-animate-id="reflog-entry">
+						<h3>À quoi ressemble une entrée dans le reflog ?</h3>
+						<svg width="800" height="500">
+							<g id="Layer_1">
+								<text xml:space="preserve" text-anchor="start" font-family="'Alegreya'" font-size="28" id="svg_1" y="245" x="8" stroke-width="0" stroke="#000" fill="#00bf00">7f80e5f</text>
+								<text xml:space="preserve" text-anchor="start" font-family="'Alegreya'" font-size="28" id="svg_3" y="245" x="274" stroke-width="0" stroke="#000" fill="#6bbace">checkout: moving from master to branch1</text>
+								<text xml:space="preserve" text-anchor="start" font-family="'Alegreya'" font-size="28" id="svg_4" y="245" x="110" stroke-width="0" stroke="#000" fill="#ff5656">HEAD@{n} :</text>
+								<g data-fragment-index="0" class="fragment">
+									<path stroke="#000" transform="rotate(90 56.3 175.834)" id="svg_6" d="m53.34531,188.50716l10.30566,-7.82764l-19.92556,0l-19.92545,0l0,-4.84535l0,-4.84535l19.69683,0c10.8331,0 19.69693,-0.24524 19.69693,-0.54553c0,-0.30029 -4.31281,-3.8231 -9.58388,-7.82764l-9.58366,-7.28148l8.85815,0l8.85847,0l13.52844,10.26001l13.52872,10.25938l-13.55451,10.24062l-13.55439,10.23999l-9.32596,0l-9.32553,0l10.30573,-7.82701l0,0z" stroke-width="0" fill="#00bf00"/>
+									<text xml:space="preserve" text-anchor="start" font-family="'Noto Sans Display'" font-size="16" id="svg_7" y="129" x="17" stroke-width="0" stroke="#000" fill="#00bf00">Commit vers lequel pointe la référence</text>
+								</g>
+								<g data-fragment-index="2" class="fragment">
+									<path transform="rotate(90 536.3 175.834)" stroke="#000" id="svg_9" d="m533.34528,188.50716l10.30573,-7.82764l-19.9256,0l-19.92548,0l0,-4.84535l0,-4.84535l19.6969,0c10.83307,0 19.6969,-0.24524 19.6969,-0.54553c0,-0.30029 -4.31281,-3.8231 -9.58386,-7.82764l-9.58368,-7.28148l8.85815,0l8.85846,0l13.52844,10.26001l13.52869,10.25938l-13.55444,10.24062l-13.55444,10.23999l-9.32593,0l-9.32556,0l10.30573,-7.82701l0,0z" stroke-width="0" fill="#6bbace"/>
+									<text xml:space="preserve" text-anchor="start" font-family="'Noto Sans Display'" font-size="16" id="svg_10" y="129" x="370" stroke-width="0" stroke="#000" fill="#6bbace">Action qui a provoqué le déplacement de la référence</text>
+								</g>
+								<g data-fragment-index="1" class="fragment">
+									<path transform="rotate(-90 181.3 296.834)" stroke="#000" id="svg_12" d="m178.34528,309.50717l10.30573,-7.82764l-19.9256,0l-19.92548,0l0,-4.84537l0,-4.84534l19.6969,0c10.83307,0 19.6969,-0.24524 19.6969,-0.54553c0,-0.30029 -4.31281,-3.82312 -9.58386,-7.82764l-9.58368,-7.28149l8.85815,0l8.85846,0l13.52844,10.26001l13.52869,10.2594l-13.55444,10.2406l-13.55444,10.23999l-9.32593,0l-9.32556,0l10.30573,-7.827l0,0z" stroke-width="0" fill="#ff5656"/>
+									<text xml:space="preserve" text-anchor="start" font-family="'Noto Sans Display'" font-size="16" id="svg_13" y="358" x="26" stroke-width="0" stroke="#000" fill="#ff5656">Le nom de la référence (ici HEAD) et sa position (n) dans les logs</text>
+								</g>
+							</g>
+						</svg>
+					</section>
+					<section data-auto-animate data-auto-animate-id="how-reflog-works">
+						<h3>Mais comment reflog fonctionne ?</h3>
+					</section>
+					<section data-auto-animate data-auto-animate-id="how-reflog-works">
+						<h3>Mais comment reflog fonctionne ?</h3>
+						<div style="display: flex; justify-content: space-between">
+							<svg width="500" height="500">
+								<g>
+									<line id="svg_16" y2="503" x2="-209" y1="504" x1="-209" stroke="#000" fill="none"/>
+									<ellipse stroke-width="0" ry="35" rx="35" id="svg_8" cy="428" cx="146" stroke="#000" fill="#8CD79F"/>
+									<ellipse stroke-width="0" ry="35" rx="35" id="svg_2" cy="313" cx="146" stroke="#000" fill="#8CD79F"/>
+									<ellipse stroke-width="0" ry="35" rx="35" id="svg_3" cy="198" cx="316" stroke="#000" fill="#6bbace"/>
+									<line fill="none" stroke="#000" x1="146" y1="353" x2="146" y2="388" id="svg_51"/>
+									<line stroke="#000" fill="none" x1="232.43797" y1="188.98582" x2="227.92696" y2="317.97324" id="svg_53" transform="rotate(53.5937 230.182 253.48)"/>
+									<g data-fragment-index="2" class="fragment fade-out">
+										<ellipse stroke-width="0" ry="35" rx="35" id="svg_4" cy="83" cx="316" stroke="#000" fill="#6bbace"/>
+										<line fill="none" stroke="#000" x1="317" y1="124" x2="317" y2="159" id="svg_54"/>
+									</g>
+									<g data-fragment-index="0" class="fragment fade-out">
+										<path fill="#aa56ff" d="m34.80499,290.48499l54.75,0l18.25001,20l-18.25001,20l-54.75,0l18.25,-20l-18.25,-20z" id="svg_59" stroke-width="0" stroke="#000"/>
+									</g>
+									<g data-fragment-index="2" class="fragment fade-out">
+										<path fill="#bf5f00" d="m204.80499,62.48499l54.75,0l18.25,20.00002l-18.25,20l-54.75,0l18.25,-20l-18.25,-20.00002z" id="svg_69" stroke-width="0" stroke="#000"/>
+									</g>
+									<text fill="#ffffff" stroke="#000" stroke-width="0" x="59" y="314" id="svg_74" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">master</text>
+									<text fill="#ffffff" stroke="#000" stroke-width="0" x="226" y="86" id="svg_75" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">branch1</text>
+
+									<line fill="none" stroke="#000" x1="-406" y1="-83" x2="-405" y2="-82" id="svg_12"/>
+									<g data-fragment-index="0" class="fragment">
+										<ellipse stroke-width="0" ry="35" rx="35" id="svg_1" cy="199" cx="146" stroke="#000" fill="#8CD79F"/>
+										<line fill="none" stroke="#000" x1="146" y1="239" x2="146" y2="274" id="svg_5"/>
+									</g>
+									<g data-fragment-index="0" class="fragment fade-out">
+										<path transform="rotate(180 221.305 310.485)" fill="#ff5656" d="m184.80499,290.48499l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" id="svg_6" stroke-width="0" stroke="#000"/>
+										<text fill="#ffffff" stroke="#000" stroke-width="0" x="201" y="314" id="svg_7" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">HEAD</text>
+									</g>
+									<g data-fragment-index="3" class="fragment">
+										<path transform="rotate(180 221.305 427.485)" fill="#ff5656" d="m184.80499,407.48499l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" id="svg_10" stroke-width="0" stroke="#000"/>
+										<text fill="#ffffff" stroke="#000" stroke-width="0" x="201" y="431" id="svg_11" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">HEAD</text>
+									</g>
+									<g data-fragment-index="2" class="fragment fade-in-then-out">
+										<path transform="rotate(180 391.305 196.485)" fill="#ff5656" d="m354.80499,176.48499l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" id="svg_13" stroke-width="0" stroke="#000"/>
+										<text fill="#ffffff" stroke="#000" stroke-width="0" x="371" y="200" id="svg_14" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">HEAD</text>
+									</g>
+									<g data-fragment-index="1" class="fragment fade-in-then-out">
+										<path transform="rotate(180 391.305 81.485)" fill="#ff5656" d="m354.80499,61.48499l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" id="svg_15" stroke-width="0" stroke="#000"/>
+										<text fill="#ffffff" stroke="#000" stroke-width="0" x="371" y="85" id="svg_17" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">HEAD</text>
+									</g>
+									<g data-fragment-index="0" class="fragment">
+										<path fill="#aa56ff" d="m34.80499,178.48499l54.75,0l18.25001,20l-18.25001,20l-54.75,0l18.25,-20l-18.25,-20z" id="svg_18" stroke-width="0" stroke="#000"/>
+										<text fill="#ffffff" stroke="#000" stroke-width="0" x="59" y="202" id="svg_19" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">master</text>
+									</g>
+									<g data-fragment-index="0" class="fragment fade-in-then-out">
+										<path transform="rotate(180 221.305 196.485)" fill="#ff5656" d="m184.80499,176.48499l54.75,0l18.25,20l-18.25,20l-54.75,0l18.25,-20l-18.25,-20z" id="svg_20" stroke-width="0" stroke="#000"/>
+										<text fill="#ffffff" stroke="#000" stroke-width="0" x="201" y="200" id="svg_21" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">HEAD</text>
+									</g>
+									<g data-fragment-index="2" class="fragment">
+										<path fill="#bf5f00" d="m204.80499,176.48499l54.75,0l18.25,20.00002l-18.25,20l-54.75,0l18.25,-20l-18.25,-20.00002z" id="svg_22" stroke-width="0" stroke="#000"/>
+										<text fill="#ffffff" stroke="#000" stroke-width="0" x="226" y="200" id="svg_23" font-size="12" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" font-weight="bold">branch1</text>
+									</g>
+								</g>
+							</svg>
+							<div style="width: 45%;">
+								<pre class="bash" style="height: fit-content;"><code data-line-numbers data-trim data-noescape>
+									git commit –m "Test"
+									git checkout branch1
+									git reset HEAD~1
+									git checkout SHA-1
+								</code></pre>
+								<pre class="bash" style="height: fit-content;"><code data-line-numbers data-trim data-noescape>
+									6f0dded HEAD@{n}:
+									checkout: moving
+									from master to 6f0dded
+									054d2ea HEAD@{n}:
+									reset: moving to HEAD~1
+									7f80e5f HEAD@{n}:
+									checkout: moving
+									from master to branch1
+									1656301 HEAD@{n}:
+									commit: Test
+								</code></pre>
+							</div>
+
+						</div>
+					</section>
+					<section data-auto-animate data-auto-animate-id="how-restore-contents-with-reflog">
+						<h3>Comment revenir sur mes modifs ?</h3>
+					</section>
+					<section data-auto-animate data-auto-animate-id="how-restore-contents-with-reflog">
+						<h3>Comment revenir sur mes modifs ?</h3>
+						<p>Tous les commits sont <strong>accessibles</strong> !</p>
+					</section>
+					<section data-auto-animate data-auto-animate-id="how-restore-contents-with-reflog">
+						<h3>Comment revenir sur mes modifs ?</h3>
+						<p>Tous les commits sont <strong>accessibles</strong> !</p>
+						<p style="font-style: italic">git reset --hard/keep SHA-1/ref{n}</p>
+					</section>
+					<section data-auto-animate data-auto-animate-id="how-restore-contents-with-reflog">
+						<h3>Comment revenir sur mes modifs ?</h3>
+						<p>Tous les commits sont <strong>accessibles</strong> !</p>
+						<p style="font-style: italic">git reset --hard/keep SHA-1/ref{n}</p>
+						<p>On peut défaire / refaire : commit, reset, merge, rebase...</p>
+					</section>
+					<section>
+						<p><strong>À vous de jouer !</strong></p>
+						<p>Créer une branche, créer plusieurs commits, squash ces commits puis annuler ce squash</p>
+					</section>
 				</section>
 				<section>
 					<section>
