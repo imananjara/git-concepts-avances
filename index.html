@@ -1765,6 +1765,69 @@
 						<p><strong>À vous de jouer !</strong></p>
 						<p>Créer une branche, créer plusieurs commits, squash ces commits puis annuler ce squash</p>
 					</section>
+					<section data-auto-animate data-auto-animate-id="git-fsck">
+						<h3>À la recherche des objets perdus</h3>
+					</section>
+					<section data-auto-animate data-auto-animate-id="git-fsck">
+						<h3>À la recherche des objets perdus</h3>
+						<p>
+							<span style="font-style:italic">git fsck</span> : vérifier la connectivité et la validité des objets dans la base de données (Cf <a target="blank" href="https://git-scm.com/docs/git-fsck">manuel du git fsck</a>)
+						</p>
+					</section>
+					<section data-auto-animate data-auto-animate-id="git-fsck">
+						<h3>À la recherche des objets perdus</h3>
+						<p>
+							<span style="font-style:italic">git fsck</span> : vérifier la connectivité et la validité des objets dans la base de données (Cf <a target="blank" href="https://git-scm.com/docs/git-fsck">manuel du git fsck</a>)
+						</p>
+						<p>
+							Avec l'option <span style="font-style:italic">--unreachable</span> : lister les objets (blob / tree /commit) qui ne sont plus référencés
+						</p>
+					</section>
+					<section data-auto-animate data-auto-animate-id="git-fsck">
+						<h3>À la recherche des objets perdus</h3>
+						<p>
+							<span style="font-style:italic">git fsck</span> : vérifier la connectivité et la validité des objets dans la base de données (Cf <a target="blank" href="https://git-scm.com/docs/git-fsck">manuel du git fsck</a>)
+						</p>
+						<p>
+							Avec l'option <span style="font-style:italic">--unreachable</span> : lister les objets (blob / tree /commit) qui ne sont plus référencés
+						</p>
+						<p>En combinant avec d'autres commandes, on peut</p>
+					</section>
+					<section data-auto-animate data-auto-animate-id="restore-blob">
+						<p>Récupérer le contenu d'un fichier</p>
+					</section>
+					<section data-auto-animate data-auto-animate-id="restore-blob">
+						<p>Récupérer le contenu d'un fichier</p>
+						<pre><code class="bash" data-trim data-noescape data-line-numbers="1|2,3|4|5|6-8">
+							$ git fsck --unreachable (--no reflogs)
+							Checking object directories: 100% (256/256), done.
+							unreachable blob 6b85036ffed2f652b39e120a6dbcaf598d54da5c
+							$ git show 6b85036 > restored-file.txt
+							$ cat restored-file.txt
+							second
+							update second file
+							another update for second file
+
+						</code></pre>
+					</section>
+					<section data-auto-animate data-auto-animate-id="restore-commit">
+						<p>Récupérer un commit</p>
+					</section>
+					<section data-auto-animate data-auto-animate-id="restore-commit">
+						<p>Récupérer un commit</p>
+						<pre><code class="bash" data-trim data-noescape data-line-numbers="1|2-4|5|6|7|8-10">
+							$ git fsck --unreachable (--no reflogs)
+							Checking object directories: 100% (256/256), done.
+							unreachable blob cc93248670e0feebb34e3e395aa4cdc5f5de1992
+							unreachable commit e06f7855361a2fc77d27896e0aaa212153493331
+							$ git branch branch4 e06f7855
+							$ git checkout branch4
+							$ git log --oneline --graph
+							* e06f785 - (HEAD -> branch4) Add test5 (4 minutes ago) <usertest>
+							* 274204e - (branch3) Add test4 (5 minutes ago) <usertest>
+							* cb7b1bd - (master) Second commit (1 year, 2 months ago) <usertest>
+						</code></pre>
+					</section>
 				</section>
 				<section>
 					<section>
